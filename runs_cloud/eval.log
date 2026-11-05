@@ -1,0 +1,5 @@
+runs/dscnn_s0 val macro-F1 0.603 FA/h 228.26066804684365
+runs/dscnn_s1 val macro-F1 0.601 FA/h 476.65543985415445
+runs/dscnn_s2 val macro-F1 0.596 FA/h 370.53425207799035
+runs/dscnn_s0_long val macro-F1 0.618 FA/h 385.66263943392147
+runs/dscnn_s0_easy val macro-F1 0.631 FA/h 419.2565584154745

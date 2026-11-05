@@ -1,0 +1,5 @@
+start 2026-11-03T05:43:48Z on acoustic-vk2-20261103
+NVIDIA L4
+torch 2.9.1+cu129 cuda True
+Average throughput: 14.2MiB/s
+done student_ir:0:long:--epochs+60 2026-11-03T05:58:49Z

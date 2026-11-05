@@ -1,0 +1,31 @@
+file,id,group,max_chainsaw_prob
+clip_01.flac,belize_378a852de578,model alarmed (top 20),0.973
+clip_02.flac,belize_592323e61536,model alarmed (top 20),0.971
+clip_03.flac,belize_8b4eff7dfe48,model alarmed (top 20),0.977
+clip_04.flac,belize_15cd70f84f90,model quiet (control),0.014
+clip_05.flac,belize_e5b477f03036,model quiet (control),0.009
+clip_06.flac,belize_12b457e21b23,model alarmed (top 20),0.979
+clip_07.flac,belize_1ac8bd20b665,model alarmed (top 20),0.977
+clip_08.flac,belize_071b4a661b65,model alarmed (top 20),0.976
+clip_09.flac,belize_b143ea20991e,model quiet (control),0.038
+clip_10.flac,belize_e1dd2835d754,model alarmed (top 20),0.98
+clip_11.flac,belize_b90a9fd9b4e8,model quiet (control),0.008
+clip_12.flac,belize_a3747d8bb31b,model alarmed (top 20),0.966
+clip_13.flac,belize_019459bbed4e,model alarmed (top 20),0.966
+clip_14.flac,belize_135902a457cf,model quiet (control),0.125
+clip_15.flac,belize_b93951596196,model quiet (control),0.034
+clip_16.flac,belize_9e6f56c0d76c,model quiet (control),0.055
+clip_17.flac,belize_1714f34bb43c,model alarmed (top 20),0.969
+clip_18.flac,belize_c662a4f9fe73,model alarmed (top 20),0.984
+clip_19.flac,belize_8e262eeed61a,model quiet (control),0.02
+clip_20.flac,belize_af4178ae6704,model alarmed (top 20),0.969
+clip_21.flac,belize_8a4a33022b1f,model alarmed (top 20),0.975
+clip_22.flac,belize_698b82cbb466,model alarmed (top 20),0.976
+clip_23.flac,belize_56ee0ed6cb26,model quiet (control),0.098
+clip_24.flac,belize_2017c78c0de5,model alarmed (top 20),0.964
+clip_25.flac,belize_067f47484353,model quiet (control),0.156
+clip_26.flac,belize_8cae71f8dcca,model alarmed (top 20),0.975
+clip_27.flac,belize_488c3b6c6969,model alarmed (top 20),0.968
+clip_28.flac,belize_2ddf85ac372f,model alarmed (top 20),0.969
+clip_29.flac,belize_ccf299a68722,model alarmed (top 20),0.97
+clip_30.flac,belize_25f522924461,model alarmed (top 20),0.976

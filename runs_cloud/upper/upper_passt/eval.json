@@ -1,0 +1,221 @@
+{
+ "splits": {
+  "val": {
+   "windows": 6526,
+   "accuracy": 0.761569108182654,
+   "macro_f1": 0.6864522820817692,
+   "per_class": {
+    "chainsaw": {
+     "precision": 0.6107784431137725,
+     "recall": 0.7285714285714285,
+     "f1": 0.6644951140065147,
+     "n": 420
+    },
+    "blast": {
+     "precision": 0.835990888382688,
+     "recall": 0.9267676767676768,
+     "f1": 0.8790419161676647,
+     "n": 396
+    },
+    "fire": {
+     "precision": 0.6063829787234043,
+     "recall": 0.6775631500742942,
+     "f1": 0.64,
+     "n": 673
+    },
+    "wood": {
+     "precision": 0.5588571428571428,
+     "recall": 0.6867977528089888,
+     "f1": 0.6162570888468809,
+     "n": 712
+    },
+    "wind": {
+     "precision": 0.37732919254658387,
+     "recall": 0.5827338129496403,
+     "f1": 0.4580584354382658,
+     "n": 417
+    },
+    "background": {
+     "precision": 0.9378582202111614,
+     "recall": 0.7955475946775844,
+     "f1": 0.8608611380312889,
+     "n": 3908
+    }
+   },
+   "macro_f1_ci": [
+    0.6516995574115638,
+    0.71914460649197
+   ],
+   "recall_by_source": {
+    "chainsaw/freesound_targeted": 0.6732673267326733,
+    "chainsaw/frugalai": 0.7619047619047619,
+    "chainsaw/fsc22": 0.8,
+    "chainsaw/rodopi": 1.0,
+    "blast/belize": 0.8461538461538461,
+    "blast/c3gd": 0.9953703703703703,
+    "blast/fsc22": 0.9,
+    "blast/fsd50k": 0.8380952380952381,
+    "fire/esc50": 0.7333333333333333,
+    "fire/freesound_targeted": 0.6707964601769911,
+    "fire/fsd50k": 0.7096774193548387,
+    "wood/freesound_targeted": 0.3900709219858156,
+    "wood/fsc22": 0.7772727272727272,
+    "wood/fsd50k": 0.7492877492877493,
+    "wind/esc50": 0.6666666666666666,
+    "wind/fsc22": 0.6545454545454545,
+    "wind/fsd50k": 0.5677233429394812,
+    "background/belize": 0.9670138888888888,
+    "background/esc50": 0.56875,
+    "background/frugalai": 0.7567567567567568,
+    "background/fsc22": 0.4581818181818182,
+    "background/fsd50k": 0.5878048780487805
+   }
+  },
+  "test_in": {
+   "windows": 6135,
+   "accuracy": 0.74360228198859,
+   "macro_f1": 0.6471742192029896,
+   "per_class": {
+    "chainsaw": {
+     "precision": 0.5714285714285714,
+     "recall": 0.6559485530546624,
+     "f1": 0.6107784431137725,
+     "n": 311
+    },
+    "blast": {
+     "precision": 0.835990888382688,
+     "recall": 0.7726315789473684,
+     "f1": 0.8030634573304158,
+     "n": 475
+    },
+    "fire": {
+     "precision": 0.6058631921824105,
+     "recall": 0.6619217081850534,
+     "f1": 0.6326530612244898,
+     "n": 562
+    },
+    "wood": {
+     "precision": 0.49261744966442955,
+     "recall": 0.6577060931899642,
+     "f1": 0.5633154259401382,
+     "n": 558
+    },
+    "wind": {
+     "precision": 0.3152639087018545,
+     "recall": 0.6696969696969697,
+     "f1": 0.42870999030067897,
+     "n": 330
+    },
+    "background": {
+     "precision": 0.9243671851174139,
+     "recall": 0.77737881508079,
+     "f1": 0.8445249373084426,
+     "n": 3899
+    }
+   },
+   "macro_f1_ci": [
+    0.6103775228127366,
+    0.6807786933989952
+   ],
+   "recall_by_source": {
+    "chainsaw/esc50": 0.9,
+    "chainsaw/freesound_targeted": 0.6116071428571429,
+    "chainsaw/frugalai": 0.90625,
+    "chainsaw/fsc22": 0.5714285714285714,
+    "blast/belize": 0.5938864628820961,
+    "blast/c3gd": 0.9930555555555556,
+    "blast/fsc22": 0.9285714285714286,
+    "blast/fsd50k": 0.8522727272727273,
+    "fire/esc50": 0.96,
+    "fire/freesound_targeted": 0.6497890295358649,
+    "fire/fsd50k": 0.6349206349206349,
+    "wood/freesound_targeted": 0.4855072463768116,
+    "wood/fsc22": 0.7586206896551724,
+    "wood/fsd50k": 0.6909090909090909,
+    "wind/esc50": 0.9,
+    "wind/fsc22": 0.8,
+    "wind/fsd50k": 0.6448275862068965,
+    "background/belize": 0.9710669077757685,
+    "background/esc50": 0.5071428571428571,
+    "background/frugalai": 0.6944444444444444,
+    "background/fsc22": 0.4672897196261682,
+    "background/fsd50k": 0.5446808510638298
+   }
+  },
+  "test_ext": {
+   "windows": 32971,
+   "accuracy": 0.8513542203754815,
+   "macro_f1": 0.45162946022539063,
+   "per_class": {
+    "chainsaw": {
+     "precision": 0.21779859484777517,
+     "recall": 0.8558282208588958,
+     "f1": 0.3472308649657747,
+     "n": 326
+    },
+    "blast": {
+     "precision": 0.35071942446043164,
+     "recall": 0.8333333333333334,
+     "f1": 0.4936708860759494,
+     "n": 234
+    },
+    "fire": {
+     "precision": 0.02422145328719723,
+     "recall": 0.7291666666666666,
+     "f1": 0.04688546550569323,
+     "n": 48
+    },
+    "wood": {
+     "precision": 0.0,
+     "recall": NaN,
+     "f1": NaN,
+     "n": 0
+    },
+    "wind": {
+     "precision": 0.0,
+     "recall": NaN,
+     "f1": NaN,
+     "n": 0
+    },
+    "background": {
+     "precision": 0.997322236294554,
+     "recall": 0.8516206779346784,
+     "f1": 0.9187306243541451,
+     "n": 32363
+    }
+   },
+   "macro_f1_ci": [
+    0.3948408461722723,
+    0.5599851126802334
+   ],
+   "recall_by_source": {
+    "chainsaw/rodopi": 0.8558282208588958,
+    "blast/belize": 0.74,
+    "blast/c3gd": 1.0,
+    "fire/freesound_real_fire": 0.7291666666666666,
+    "background/belize": 0.9501420454545455,
+    "background/rodopi": 0.0,
+    "background/sensing_forest": 0.19166666666666668
+   }
+  }
+ },
+ "thresholds": {
+  "chainsaw": 0.019724722981214422,
+  "blast": 0.9969598871995055
+ },
+ "false_alarms_per_hour": {
+  "value": 421.592559404258,
+  "hours": 8.989722222222222,
+  "ci95": [
+   368.6895831430842,
+   488.75137320963637
+  ]
+ },
+ "alert_recall_at_threshold": {
+  "test_in/chainsaw": 0.7652733118971061,
+  "test_in/blast": 0.6126315789473684,
+  "test_ext/chainsaw": 0.9233128834355828,
+  "test_ext/blast": 0.6581196581196581
+ },
+ "run": "upper_passt"
+}

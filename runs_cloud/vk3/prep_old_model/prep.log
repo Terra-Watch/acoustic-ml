@@ -1,0 +1,3 @@
+4 clips skipped (damaged audio); 656 clips, {'train': 339, 'val': 159, 'test_ext': 158} minutes per split
+21776 clips, 43.0 h at 8 kHz, 2.47 GB
+runs/student_ir_s0_easy val macro-F1 0.665 FA/h 118.55746480892861

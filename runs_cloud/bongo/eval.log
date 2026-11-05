@@ -1,0 +1,3 @@
+runs/student_ir_s0 val macro-F1 0.627 FA/h 166.96845162685784
+runs/student_ir_s1 val macro-F1 0.613 FA/h 208.79399314031457
+runs/student_ir_s2 val macro-F1 0.631 FA/h 153.06368383647995

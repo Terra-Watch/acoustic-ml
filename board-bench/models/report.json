@@ -1,0 +1,87 @@
+[
+ {
+  "name": "m5",
+  "width": 4,
+  "macs": 4966272,
+  "params": 16754,
+  "tflite_bytes": 33856,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "MEAN",
+   "RESHAPE"
+  ],
+  "input": "int8[np.int32(1), np.int32(40), np.int32(101), np.int32(1)]",
+  "output": "int8[np.int32(1), np.int32(6)]",
+  "per_channel_tensors": false
+ },
+ {
+  "name": "m30",
+  "width": 11,
+  "macs": 29309808,
+  "params": 107740,
+  "tflite_bytes": 125280,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "MEAN",
+   "RESHAPE"
+  ],
+  "input": "int8[np.int32(1), np.int32(40), np.int32(101), np.int32(1)]",
+  "output": "int8[np.int32(1), np.int32(6)]",
+  "per_channel_tensors": false
+ },
+ {
+  "name": "m100",
+  "width": 21,
+  "macs": 98643888,
+  "params": 373890,
+  "tflite_bytes": 391856,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "MEAN",
+   "RESHAPE"
+  ],
+  "input": "int8[np.int32(1), np.int32(40), np.int32(101), np.int32(1)]",
+  "output": "int8[np.int32(1), np.int32(6)]",
+  "per_channel_tensors": false
+ },
+ {
+  "name": "a8",
+  "width": 8,
+  "macs": 16437504,
+  "params": 59134,
+  "tflite_bytes": 76528,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "MEAN",
+   "RESHAPE"
+  ],
+  "input": "int8[np.int32(1), np.int32(40), np.int32(101), np.int32(1)]",
+  "output": "int8[np.int32(1), np.int32(6)]",
+  "per_channel_tensors": false
+ },
+ {
+  "name": "a16",
+  "width": 16,
+  "macs": 58894848,
+  "params": 220790,
+  "tflite_bytes": 238528,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "MEAN",
+   "RESHAPE"
+  ],
+  "input": "int8[np.int32(1), np.int32(40), np.int32(101), np.int32(1)]",
+  "output": "int8[np.int32(1), np.int32(6)]",
+  "per_channel_tensors": false
+ }
+]

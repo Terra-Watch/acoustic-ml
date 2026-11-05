@@ -1,0 +1,1 @@
+../../../node-firmware/lib/Sensors/src/Max4466.h

@@ -1,0 +1,401 @@
+id,set,top1,top1_p,top3,machinery,gunshot,insects,frogs_birds,rain_wind
+belize_c662a4f9fe73,alarmed,Vehicle,0.09,Vehicle 0.09; Animal 0.06; Music 0.05,0.09,0.001,0.043,0.018,0.013
+belize_e1dd2835d754,alarmed,Vehicle,0.13,"Vehicle 0.13; Animal 0.12; Outside, rural or natural 0.08",0.127,0.002,0.018,0.032,0.022
+belize_12b457e21b23,alarmed,Vehicle,0.17,Vehicle 0.17; Music 0.07; White noise 0.05,0.171,0.001,0.012,0.004,0.004
+belize_1ac8bd20b665,alarmed,Vehicle,0.25,Vehicle 0.25; White noise 0.07; Car 0.06,0.249,0.002,0.008,0.01,0.012
+belize_8b4eff7dfe48,alarmed,Animal,0.43,Animal 0.43; Cat 0.21; Crow 0.17,0.012,0.0,0.04,0.084,0.002
+belize_071b4a661b65,alarmed,Animal,0.2,Animal 0.20; Vehicle 0.07; Silence 0.06,0.074,0.002,0.01,0.038,0.018
+belize_698b82cbb466,alarmed,Tick-tock,0.4,Tick-tock 0.40; Tick 0.38; Mouse 0.06,0.038,0.001,0.017,0.017,0.009
+belize_25f522924461,alarmed,Bird,0.19,"Bird 0.19; Bird vocalization, bird call, bird song 0.14; Chirp, tweet 0.12",0.013,0.001,0.013,0.191,0.003
+belize_8cae71f8dcca,alarmed,Animal,0.16,Animal 0.16; Mouse 0.07; Speech 0.07,0.046,0.001,0.014,0.049,0.015
+belize_8a4a33022b1f,alarmed,Bird,0.35,"Bird 0.35; Bird vocalization, bird call, bird song 0.22; Chirp, tweet 0.20",0.011,0.0,0.066,0.351,0.005
+belize_378a852de578,alarmed,Vehicle,0.11,Vehicle 0.11; Silence 0.08; Animal 0.06,0.115,0.001,0.022,0.016,0.015
+belize_592323e61536,alarmed,Vehicle,0.12,Vehicle 0.12; White noise 0.08; Speech 0.04,0.116,0.001,0.006,0.01,0.011
+belize_ccf299a68722,alarmed,Mouse,0.44,"Mouse 0.44; Patter 0.24; Rodents, rats, mice 0.17",0.034,0.0,0.035,0.031,0.005
+belize_2ddf85ac372f,alarmed,Animal,0.12,Animal 0.12; Vehicle 0.12; Mouse 0.07,0.117,0.001,0.01,0.022,0.011
+belize_af4178ae6704,alarmed,Animal,0.17,Animal 0.17; Mouse 0.08; Bird 0.08,0.053,0.0,0.01,0.077,0.012
+belize_1714f34bb43c,alarmed,White noise,0.11,White noise 0.11; Vehicle 0.09; Animal 0.06,0.089,0.001,0.026,0.017,0.026
+belize_488c3b6c6969,alarmed,Vehicle,0.21,Vehicle 0.21; Engine 0.09; Car 0.07,0.215,0.001,0.013,0.008,0.019
+belize_019459bbed4e,alarmed,Cricket,0.24,Cricket 0.24; Insect 0.19; Animal 0.09,0.016,0.0,0.239,0.053,0.005
+belize_a3747d8bb31b,alarmed,Animal,0.23,Animal 0.23; Mouse 0.17; Insect 0.14,0.024,0.0,0.139,0.135,0.011
+belize_2017c78c0de5,alarmed,Tick-tock,0.35,Tick-tock 0.35; Tick 0.33; Animal 0.09,0.039,0.001,0.008,0.024,0.006
+belize_f0a3a6d86e42,alarmed,Animal,0.17,Animal 0.17; Bird 0.17; Environmental noise 0.10,0.05,0.0,0.041,0.168,0.013
+belize_39b58629d385,alarmed,Tuning fork,0.23,Tuning fork 0.23; Jet engine 0.14; Vehicle 0.12,0.118,0.0,0.004,0.001,0.001
+belize_ef8a04e36235,alarmed,Animal,0.12,"Animal 0.12; Vehicle 0.11; Outside, rural or natural 0.08",0.114,0.001,0.039,0.061,0.043
+belize_9c9d1aa6a13f,alarmed,Vehicle,0.07,Vehicle 0.07; Music 0.06; Animal 0.05,0.069,0.001,0.033,0.015,0.009
+belize_f3c2ebe2fabb,alarmed,Animal,0.35,"Animal 0.35; Domestic animals, pets 0.11; Cat 0.09",0.043,0.001,0.017,0.038,0.021
+belize_596ed6908401,alarmed,Animal,0.32,"Animal 0.32; Mouse 0.27; Domestic animals, pets 0.13",0.036,0.0,0.008,0.033,0.007
+belize_1bae8e8fc5e5,alarmed,Mouse,0.1,Mouse 0.10; Vehicle 0.06; Animal 0.05,0.063,0.0,0.005,0.023,0.008
+belize_9977f6a757d9,alarmed,Mouse,0.06,Mouse 0.06; Animal 0.06; Silence 0.05,0.05,0.001,0.007,0.008,0.006
+belize_e7c7020d7718,alarmed,Tick-tock,0.52,"Tick-tock 0.52; Tick 0.48; Inside, small room 0.06",0.026,0.001,0.002,0.006,0.003
+belize_f0bd2fbdb2e1,alarmed,Animal,0.08,Animal 0.08; Mouse 0.06; Vehicle 0.06,0.057,0.001,0.007,0.009,0.007
+belize_baf76bd4adf4,alarmed,Cricket,0.19,Cricket 0.19; Insect 0.14; Squeal 0.13,0.022,0.0,0.194,0.032,0.003
+belize_d16a74597d24,alarmed,Tick-tock,0.51,Tick-tock 0.51; Tick 0.40; Clock 0.11,0.039,0.0,0.004,0.014,0.003
+belize_96aff3fe1a3e,alarmed,Crow,0.31,Crow 0.31; Caw 0.28; Animal 0.18,0.029,0.0,0.021,0.145,0.003
+belize_b3946e485439,alarmed,Tick,0.21,Tick 0.21; Tick-tock 0.20; Mouse 0.08,0.023,0.001,0.01,0.015,0.002
+belize_546586be2b88,alarmed,White noise,0.16,White noise 0.16; Vehicle 0.09; Silence 0.07,0.094,0.001,0.058,0.012,0.021
+belize_cba53771d077,alarmed,Animal,0.11,Animal 0.11; Mouse 0.07; Music 0.07,0.047,0.0,0.008,0.03,0.014
+belize_907fc6433cad,alarmed,Animal,0.28,"Animal 0.28; Mouse 0.08; Domestic animals, pets 0.07",0.027,0.0,0.042,0.054,0.009
+belize_d6d628efa63c,alarmed,Vehicle,0.13,Vehicle 0.13; Animal 0.08; Speech 0.05,0.128,0.001,0.013,0.023,0.017
+belize_4fec2b442ff6,alarmed,Insect,0.33,Insect 0.33; Cricket 0.15; Animal 0.10,0.023,0.001,0.331,0.023,0.013
+belize_7f6cc6781f38,alarmed,Animal,0.12,Animal 0.12; Mouse 0.08; Insect 0.06,0.034,0.001,0.061,0.019,0.012
+belize_7eb90afb4792,alarmed,Mouse,0.09,Mouse 0.09; Tick 0.09; Animal 0.08,0.04,0.0,0.009,0.019,0.012
+belize_9cb1a3de7332,alarmed,Mouse,0.1,Mouse 0.10; Animal 0.07; Vehicle 0.06,0.063,0.001,0.013,0.012,0.011
+belize_b5e213a00e24,alarmed,Insect,0.25,Insect 0.25; Animal 0.18; Cricket 0.17,0.053,0.001,0.251,0.054,0.021
+belize_748b4c292451,alarmed,Bird,0.22,"Bird 0.22; Animal 0.17; Bird vocalization, bird call, bird song 0.10",0.072,0.0,0.087,0.22,0.009
+belize_43a49e5b494e,alarmed,Animal,0.21,"Animal 0.21; Bird 0.18; Pigeon, dove 0.08",0.038,0.001,0.016,0.176,0.012
+belize_4267542953e0,alarmed,Mouse,0.14,Mouse 0.14; Animal 0.09; Tick 0.05,0.034,0.001,0.012,0.021,0.011
+belize_23b21e23a4d5,alarmed,Mouse,0.3,Mouse 0.30; Animal 0.20; Bird 0.10,0.061,0.001,0.017,0.099,0.011
+belize_ef192f79343d,alarmed,Finger snapping,0.15,Finger snapping 0.15; Tick-tock 0.09; Tick 0.09,0.013,0.0,0.007,0.015,0.003
+belize_93feca90cf06,alarmed,Vehicle,0.14,Vehicle 0.14; White noise 0.10; Animal 0.04,0.142,0.001,0.01,0.014,0.019
+belize_4061889a090a,alarmed,Vehicle,0.11,Vehicle 0.11; Speech 0.10; Music 0.05,0.111,0.001,0.015,0.01,0.006
+belize_f597a8f9dbbb,alarmed,Insect,0.28,"Insect 0.28; Bee, wasp, etc. 0.23; Animal 0.18",0.045,0.001,0.282,0.063,0.035
+belize_4dea2f952aa3,alarmed,Mouse,0.19,"Mouse 0.19; Patter 0.17; Rodents, rats, mice 0.14",0.083,0.0,0.008,0.02,0.005
+belize_5eb09f5d8a29,alarmed,Mouse,0.26,Mouse 0.26; Animal 0.15; Vehicle 0.05,0.055,0.001,0.011,0.021,0.007
+belize_6ee26a2adc11,alarmed,Tick-tock,0.23,Tick-tock 0.23; Animal 0.16; Tick 0.16,0.025,0.004,0.003,0.02,0.01
+belize_e47514bd470b,alarmed,White noise,0.1,White noise 0.10; Silence 0.07; Mouse 0.06,0.05,0.001,0.011,0.013,0.01
+belize_589baeda7233,alarmed,Vehicle,0.1,Vehicle 0.10; Animal 0.07; Speech 0.04,0.098,0.001,0.019,0.018,0.019
+belize_da2867afa5ce,alarmed,Vehicle,0.22,Vehicle 0.22; White noise 0.18; Car 0.06,0.225,0.001,0.01,0.009,0.017
+belize_8df05a47c248,alarmed,Tick,0.2,Tick 0.20; Tick-tock 0.19; Mouse 0.10,0.027,0.0,0.011,0.01,0.006
+belize_b3c2a8142ef6,alarmed,Vehicle,0.11,Vehicle 0.11; Animal 0.10; Patter 0.07,0.115,0.001,0.023,0.022,0.021
+belize_32b73c6aea34,alarmed,Tick-tock,0.16,Tick-tock 0.16; Tick 0.12; Sizzle 0.09,0.044,0.001,0.018,0.018,0.013
+belize_6268cc1b803d,alarmed,Tick-tock,0.26,Tick-tock 0.26; Tick 0.24; Mouse 0.09,0.029,0.0,0.006,0.012,0.004
+belize_e628f440429d,alarmed,White noise,0.08,White noise 0.08; Rustle 0.05; Animal 0.05,0.048,0.0,0.006,0.01,0.015
+belize_3f81b7964f55,alarmed,"Inside, small room",0.09,"Inside, small room 0.09; Silence 0.04; Chop 0.04",0.011,0.003,0.004,0.003,0.002
+belize_d1e0ca31a983,alarmed,Animal,0.21,Animal 0.21; Mouse 0.11; Clip-clop 0.07,0.053,0.001,0.026,0.062,0.021
+belize_465711a71251,alarmed,Music,0.58,Music 0.58; Musical instrument 0.07; Animal 0.07,0.037,0.0,0.031,0.021,0.02
+belize_b2cc5e339460,alarmed,Vehicle,0.09,Vehicle 0.09; Mouse 0.08; Animal 0.07,0.086,0.001,0.012,0.015,0.009
+belize_e9a71dbd5576,alarmed,Tick-tock,0.46,Tick-tock 0.46; Tick 0.36; Animal 0.26,0.024,0.0,0.004,0.027,0.006
+belize_cb5b81281b59,alarmed,Tick-tock,0.67,Tick-tock 0.67; Tick 0.51; Clock 0.05,0.011,0.001,0.003,0.008,0.002
+belize_5d8831a48a4c,alarmed,Crow,0.75,Crow 0.75; Caw 0.66; Animal 0.37,0.01,0.0,0.012,0.228,0.007
+belize_db174cdd764a,alarmed,Snoring,0.39,Snoring 0.39; Owl 0.21; Animal 0.12,0.014,0.001,0.061,0.058,0.003
+belize_bcf952c979ed,alarmed,Vehicle,0.46,Vehicle 0.46; Car 0.15; White noise 0.11,0.462,0.002,0.007,0.005,0.009
+belize_36be8df6c746,alarmed,Vehicle,0.13,Vehicle 0.13; Animal 0.09; Tick 0.05,0.128,0.001,0.009,0.018,0.014
+belize_34301a15fa28,alarmed,Mouse,0.43,Mouse 0.43; Animal 0.16; Insect 0.08,0.041,0.0,0.078,0.072,0.01
+belize_af26c127484d,alarmed,"Rodents, rats, mice",0.43,"Rodents, rats, mice 0.43; Patter 0.33; Animal 0.24",0.076,0.0,0.005,0.092,0.001
+belize_449c82919662,alarmed,White noise,0.11,White noise 0.11; Mouse 0.07; Tick 0.07,0.048,0.0,0.004,0.01,0.019
+belize_8016d6862fd2,alarmed,Vehicle,0.12,"Vehicle 0.12; Animal 0.09; Outside, rural or natural 0.07",0.122,0.002,0.024,0.025,0.037
+belize_956440516258,alarmed,Mouse,0.1,Mouse 0.10; Tick 0.08; Tick-tock 0.08,0.039,0.0,0.009,0.016,0.011
+belize_b179d7ed81a6,alarmed,Tick-tock,0.28,Tick-tock 0.28; Tick 0.25; Animal 0.14,0.016,0.0,0.003,0.025,0.004
+belize_3ed7e9eae23c,alarmed,Environmental noise,0.3,Environmental noise 0.30; Bird 0.21; Turkey 0.18,0.014,0.0,0.027,0.209,0.007
+belize_e22122289575,alarmed,Vehicle,0.16,"Vehicle 0.16; Animal 0.06; Inside, small room 0.05",0.158,0.001,0.007,0.013,0.014
+belize_381c1a66dbfa,alarmed,Tick-tock,0.57,Tick-tock 0.57; Tick 0.50; Clock 0.07,0.019,0.001,0.003,0.009,0.007
+belize_897e3c1229bc,alarmed,Animal,0.23,Animal 0.23; Speech 0.07; Water 0.07,0.027,0.0,0.033,0.016,0.07
+belize_d68498c86ab1,alarmed,Animal,0.17,Animal 0.17; Mouse 0.14; Bird 0.10,0.017,0.001,0.009,0.098,0.007
+belize_04aaad3e0dc8,alarmed,Animal,0.23,Animal 0.23; Bird 0.23; Owl 0.20,0.026,0.0,0.046,0.233,0.013
+belize_fb14ce5fd4bc,alarmed,Animal,0.16,Animal 0.16; Mouse 0.13; Vehicle 0.07,0.071,0.0,0.015,0.047,0.015
+belize_c4770785a880,alarmed,Tick-tock,0.4,"Tick-tock 0.40; Tick 0.35; Inside, small room 0.11",0.014,0.0,0.004,0.007,0.003
+belize_387fcda628d5,alarmed,Animal,0.11,Animal 0.11; Mouse 0.10; Speech 0.05,0.028,0.001,0.008,0.016,0.01
+belize_bd2737f5f2e1,alarmed,Mouse,0.1,Mouse 0.10; Vehicle 0.10; Animal 0.08,0.1,0.001,0.03,0.015,0.011
+belize_786a6e8843e2,alarmed,Animal,0.11,Animal 0.11; Speech 0.07; Music 0.06,0.051,0.001,0.025,0.025,0.009
+belize_a4c1fcfa337a,alarmed,Mouse,0.11,Mouse 0.11; Vehicle 0.09; Animal 0.07,0.094,0.001,0.026,0.029,0.004
+belize_9627622d36b6,alarmed,Mouse,0.35,"Mouse 0.35; Animal 0.18; Domestic animals, pets 0.06",0.037,0.0,0.023,0.036,0.008
+belize_9c4ab9a74dd5,alarmed,White noise,0.1,White noise 0.10; Mouse 0.06; Vehicle 0.05,0.05,0.001,0.023,0.012,0.015
+belize_425d36f2fe3b,alarmed,Music,0.18,Music 0.18; Tick-tock 0.11; Tick 0.09,0.07,0.001,0.003,0.02,0.009
+belize_6b10e228ac6a,alarmed,Vehicle,0.12,Vehicle 0.12; Animal 0.12; Insect 0.07,0.123,0.001,0.074,0.043,0.025
+belize_8a8d85d51fa4,alarmed,Vehicle,0.21,Vehicle 0.21; Animal 0.11; Speech 0.07,0.208,0.001,0.025,0.046,0.019
+belize_3582ea1bc89e,alarmed,Vehicle,0.09,"Vehicle 0.09; Animal 0.08; Inside, small room 0.06",0.094,0.001,0.007,0.011,0.009
+belize_89ce4ecdc8ee,alarmed,Animal,0.21,Animal 0.21; Insect 0.13; Cricket 0.09,0.039,0.001,0.135,0.08,0.028
+belize_28595ecf881e,alarmed,Vehicle,0.06,Vehicle 0.06; White noise 0.06; Mouse 0.06,0.063,0.001,0.017,0.013,0.005
+belize_9aed95a01e6f,alarmed,Vehicle,0.09,Vehicle 0.09; Music 0.07; Mouse 0.04,0.086,0.0,0.013,0.01,0.007
+belize_10bf8b97530a,alarmed,Mouse,0.35,"Mouse 0.35; Animal 0.17; Rodents, rats, mice 0.06",0.033,0.0,0.051,0.048,0.011
+belize_5058ca7001ef,alarmed,Vehicle,0.21,Vehicle 0.21; Animal 0.08; Mouse 0.07,0.209,0.001,0.01,0.016,0.009
+belize_1e6abd548325,alarmed,Vehicle,0.38,Vehicle 0.38; Speech 0.33; Car 0.09,0.377,0.002,0.006,0.022,0.025
+belize_adb078c9eb08,alarmed,Patter,0.25,"Patter 0.25; Rodents, rats, mice 0.18; Mouse 0.18",0.049,0.0,0.014,0.011,0.005
+belize_b53466b5a4b6,alarmed,Environmental noise,0.42,Environmental noise 0.42; Animal 0.20; Bird 0.16,0.017,0.0,0.065,0.155,0.011
+belize_1455159d2bb5,alarmed,Tick-tock,0.2,Tick-tock 0.20; Tick 0.15; Mouse 0.11,0.022,0.0,0.004,0.015,0.002
+belize_534cf38f11bc,alarmed,Sine wave,0.23,Sine wave 0.23; Chirp tone 0.10; Environmental noise 0.06,0.029,0.001,0.031,0.047,0.005
+belize_b17c20399d48,alarmed,Animal,0.15,"Animal 0.15; Patter 0.13; Rodents, rats, mice 0.09",0.043,0.001,0.004,0.028,0.035
+belize_86a3eab331dc,alarmed,Tick-tock,0.57,Tick-tock 0.57; Tick 0.43; Clock 0.06,0.016,0.001,0.004,0.005,0.002
+belize_43335c1659e0,alarmed,Animal,0.26,Animal 0.26; Bird 0.23; Environmental noise 0.11,0.03,0.0,0.038,0.226,0.007
+belize_ecea6c7e2fc6,alarmed,Animal,0.18,"Animal 0.18; Mouse 0.07; Outside, rural or natural 0.06",0.056,0.001,0.034,0.049,0.025
+belize_08d207f40a36,alarmed,Animal,0.09,Animal 0.09; Vehicle 0.08; White noise 0.07,0.084,0.001,0.036,0.028,0.019
+belize_194964d55677,alarmed,Vehicle,0.08,Vehicle 0.08; Animal 0.07; Silence 0.07,0.077,0.001,0.053,0.02,0.016
+belize_066890d644fc,alarmed,Vehicle,0.18,Vehicle 0.18; Mouse 0.16; Animal 0.13,0.179,0.001,0.018,0.049,0.01
+belize_7c0bf9da08d1,alarmed,Animal,0.15,Animal 0.15; Bird 0.10; Speech 0.08,0.056,0.0,0.024,0.096,0.014
+belize_e6fe8325265d,alarmed,Animal,0.17,Animal 0.17; Mouse 0.15; Music 0.12,0.035,0.0,0.028,0.065,0.016
+belize_5e784b8efc38,alarmed,Animal,0.22,Animal 0.22; Bird 0.16; Environmental noise 0.12,0.032,0.0,0.076,0.162,0.016
+belize_1449fc945dfc,alarmed,Clip-clop,0.4,Clip-clop 0.40; Horse 0.35; Animal 0.28,0.141,0.001,0.004,0.013,0.01
+belize_a112d857a96d,alarmed,Vehicle,0.39,"Vehicle 0.39; Boat, Water vehicle 0.11; Mouse 0.10",0.39,0.0,0.016,0.015,0.014
+belize_83836ed4b19f,alarmed,Animal,0.15,Animal 0.15; Vehicle 0.07; Mouse 0.06,0.066,0.001,0.018,0.022,0.012
+belize_4e15d743dd27,alarmed,Animal,0.17,Animal 0.17; Mouse 0.14; Speech 0.12,0.013,0.001,0.073,0.075,0.006
+belize_419b19feaa0b,alarmed,Mouse,0.18,Mouse 0.18; Animal 0.11; Tick 0.06,0.042,0.0,0.01,0.025,0.011
+belize_dadf7e84e9b1,alarmed,Animal,0.2,"Animal 0.20; Mouse 0.12; Rodents, rats, mice 0.11",0.025,0.0,0.006,0.055,0.027
+belize_cae314e7971c,alarmed,Animal,0.22,Animal 0.22; Patter 0.18; Tick-tock 0.15,0.037,0.0,0.004,0.03,0.007
+belize_362cdb30bcd7,alarmed,Mouse,0.3,"Mouse 0.30; Animal 0.26; Rodents, rats, mice 0.18",0.02,0.001,0.01,0.055,0.018
+belize_07ec6e3c731b,alarmed,Animal,0.12,Animal 0.12; Owl 0.11; Mouse 0.07,0.066,0.0,0.052,0.073,0.014
+belize_e8584044aead,alarmed,Vehicle,0.17,Vehicle 0.17; Animal 0.10; Mouse 0.09,0.167,0.0,0.025,0.02,0.003
+belize_5e7a1d5b953b,alarmed,Vehicle,0.07,Vehicle 0.07; Mouse 0.07; Animal 0.06,0.074,0.001,0.021,0.016,0.009
+belize_d09c8bcf8a20,alarmed,Animal,0.17,Animal 0.17; Mouse 0.14; Patter 0.14,0.058,0.001,0.013,0.034,0.012
+belize_61eee45377a5,alarmed,Speech,0.12,Speech 0.12; Animal 0.09; Music 0.05,0.047,0.0,0.038,0.03,0.008
+belize_c7495ed067bb,alarmed,Mouse,0.45,"Mouse 0.45; Animal 0.29; Rodents, rats, mice 0.20",0.03,0.0,0.02,0.107,0.012
+belize_e35802441c83,alarmed,Animal,0.33,Animal 0.33; Mouse 0.30; Patter 0.26,0.033,0.0,0.008,0.042,0.007
+belize_f007838ae6e7,alarmed,Animal,0.39,Animal 0.39; Duck 0.27; Quack 0.22,0.02,0.0,0.011,0.211,0.002
+belize_f97217cd2623,alarmed,Tuning fork,0.12,Tuning fork 0.12; Sine wave 0.12; Chirp tone 0.06,0.019,0.009,0.014,0.004,0.005
+belize_f90af6d90cf7,alarmed,"Rodents, rats, mice",0.3,"Rodents, rats, mice 0.30; Patter 0.15; Bird 0.08",0.011,0.0,0.009,0.076,0.003
+belize_97b81df3ef49,alarmed,Animal,0.46,"Animal 0.46; Domestic animals, pets 0.20; Cat 0.18",0.037,0.0,0.005,0.115,0.006
+belize_cec85a759522,alarmed,Animal,0.09,Animal 0.09; Mouse 0.06; Tick 0.06,0.056,0.001,0.013,0.031,0.009
+belize_54c4903d671d,alarmed,Cricket,0.1,Cricket 0.10; Insect 0.09; Mouse 0.08,0.01,0.0,0.096,0.048,0.002
+belize_bb9d455bcaba,alarmed,Animal,0.56,"Animal 0.56; Domestic animals, pets 0.46; Dog 0.44",0.008,0.001,0.004,0.207,0.006
+belize_59bf6a8ae0c8,alarmed,Animal,0.17,Animal 0.17; Mouse 0.12; Silence 0.06,0.043,0.001,0.024,0.023,0.009
+belize_952addfcab60,alarmed,Animal,0.11,Animal 0.11; Mouse 0.09; Vehicle 0.07,0.072,0.001,0.012,0.023,0.022
+belize_b7c67ff7b536,alarmed,Animal,0.17,Animal 0.17; Bird 0.10; Mouse 0.05,0.031,0.0,0.033,0.099,0.024
+belize_48337b2a7973,alarmed,Mouse,0.09,Mouse 0.09; Animal 0.06; White noise 0.05,0.045,0.0,0.008,0.015,0.01
+belize_221f5b9747c9,alarmed,Animal,0.22,"Animal 0.22; Patter 0.21; Rodents, rats, mice 0.17",0.026,0.0,0.006,0.038,0.005
+belize_2c61b1fb71e2,alarmed,Tick-tock,0.43,Tick-tock 0.43; Tick 0.38; Animal 0.08,0.013,0.001,0.011,0.012,0.007
+belize_643f671bc99c,alarmed,White noise,0.12,White noise 0.12; Vehicle 0.08; Silence 0.06,0.081,0.001,0.007,0.009,0.018
+belize_f418c96b381f,alarmed,Animal,0.25,Animal 0.25; Tick-tock 0.20; Patter 0.17,0.038,0.001,0.003,0.023,0.019
+belize_c70f9e76fd13,alarmed,Music,0.53,"Music 0.53; Speech 0.47; Inside, small room 0.15",0.009,0.0,0.01,0.005,0.001
+belize_a382158bf338,alarmed,Animal,0.27,Animal 0.27; Tick-tock 0.23; Tick 0.21,0.03,0.001,0.005,0.029,0.01
+belize_88d3e1f9ef1b,alarmed,Animal,0.22,"Animal 0.22; Mouse 0.19; Rodents, rats, mice 0.07",0.035,0.0,0.007,0.039,0.012
+belize_40430051f54e,alarmed,Music,0.54,Music 0.54; Musical instrument 0.28; Guitar 0.28,0.059,0.001,0.002,0.01,0.002
+belize_956f09616859,alarmed,Animal,0.29,"Animal 0.29; Mouse 0.16; Domestic animals, pets 0.09",0.035,0.0,0.008,0.028,0.009
+belize_cc87d0fd30b3,alarmed,Vehicle,0.06,"Vehicle 0.06; Music 0.05; Inside, small room 0.04",0.059,0.0,0.01,0.008,0.006
+belize_99fd859bec2e,alarmed,Owl,0.48,Owl 0.48; Animal 0.22; Bird 0.20,0.028,0.0,0.011,0.199,0.002
+belize_fd291550f78c,alarmed,Patter,0.26,Patter 0.26; Animal 0.17; Bird 0.16,0.044,0.0,0.021,0.158,0.01
+belize_87a20008c9bd,alarmed,Finger snapping,0.52,Finger snapping 0.52; Squish 0.04; Music 0.04,0.007,0.0,0.01,0.015,0.003
+belize_8f4ca50a5ef8,alarmed,Mouse,0.22,Mouse 0.22; Animal 0.19; Tick 0.07,0.044,0.0,0.012,0.024,0.008
+belize_85fe085afbb7,alarmed,Tick-tock,0.36,Tick-tock 0.36; Tick 0.32; Animal 0.10,0.031,0.0,0.006,0.032,0.009
+belize_65c2450c8f8e,alarmed,Animal,0.17,Animal 0.17; Mouse 0.12; Vehicle 0.11,0.111,0.001,0.029,0.07,0.012
+belize_c38208fb03c8,alarmed,Animal,0.2,Animal 0.20; Mouse 0.16; Tick 0.11,0.027,0.0,0.007,0.025,0.011
+belize_837f6e537f9c,alarmed,Animal,0.33,Animal 0.33; Bird 0.22; Owl 0.21,0.034,0.0,0.012,0.223,0.002
+belize_b5f579871101,alarmed,Bird,0.27,"Bird 0.27; Bird vocalization, bird call, bird song 0.18; Chirp, tweet 0.18",0.02,0.0,0.029,0.271,0.012
+belize_c64d313761ea,alarmed,Siren,0.15,Siren 0.15; Civil defense siren 0.10; Vehicle 0.08,0.081,0.0,0.014,0.016,0.007
+belize_a51747373c2b,alarmed,Animal,0.12,Animal 0.12; Vehicle 0.11; Mouse 0.09,0.105,0.0,0.011,0.044,0.005
+belize_9ac247bd6113,alarmed,Insect,0.23,"Insect 0.23; Bee, wasp, etc. 0.19; Animal 0.14",0.02,0.001,0.228,0.023,0.012
+belize_a7b52ca0fb1f,alarmed,Animal,0.25,"Animal 0.25; Patter 0.15; Rodents, rats, mice 0.13",0.059,0.0,0.01,0.037,0.016
+belize_7b44d99b66a9,alarmed,White noise,0.09,White noise 0.09; Silence 0.06; Animal 0.05,0.052,0.001,0.008,0.01,0.012
+belize_1efb118f8ffb,alarmed,Turkey,0.12,Turkey 0.12; Environmental noise 0.10; Animal 0.10,0.015,0.001,0.062,0.047,0.003
+belize_998ca93d5c96,alarmed,Chirp tone,0.13,Chirp tone 0.13; Music 0.09; Fire alarm 0.07,0.046,0.0,0.006,0.024,0.001
+belize_9bd2c54bd261,alarmed,Animal,0.11,Animal 0.11; Mouse 0.09; Tick 0.09,0.038,0.001,0.01,0.025,0.008
+belize_ea5a500f9bc9,alarmed,Cricket,0.16,Cricket 0.16; Insect 0.16; Mouse 0.13,0.085,0.001,0.16,0.057,0.011
+belize_b2e1e3d15c47,alarmed,Tick-tock,0.63,Tick-tock 0.63; Tick 0.53; Clock 0.11,0.018,0.001,0.001,0.008,0.012
+belize_1ed10a6d6c7d,alarmed,Animal,0.29,Animal 0.29; Vehicle 0.28; Mouse 0.13,0.285,0.001,0.013,0.056,0.005
+belize_6dffac6ac89f,alarmed,Mouse,0.24,Mouse 0.24; Patter 0.21; Animal 0.16,0.066,0.0,0.009,0.046,0.01
+belize_2223ea8e3986,alarmed,Animal,0.18,"Animal 0.18; Vehicle 0.07; Outside, rural or natural 0.06",0.065,0.001,0.023,0.028,0.037
+belize_67494948f112,alarmed,Tick-tock,0.44,Tick-tock 0.44; Tick 0.31; Animal 0.04,0.035,0.001,0.009,0.011,0.004
+belize_868486c15134,alarmed,"Inside, small room",0.09,"Inside, small room 0.09; Mouse 0.07; Tick-tock 0.07",0.033,0.0,0.007,0.014,0.004
+belize_ab6607beff62,alarmed,Vehicle,0.26,Vehicle 0.26; Car 0.06; Speech 0.05,0.256,0.001,0.011,0.009,0.009
+belize_049aab7688ce,alarmed,Tick-tock,0.24,Tick-tock 0.24; Tick 0.24; Patter 0.14,0.05,0.0,0.013,0.02,0.006
+belize_d490b07cd319,alarmed,Mouse,0.21,"Mouse 0.21; Animal 0.17; Rodents, rats, mice 0.08",0.029,0.0,0.008,0.051,0.015
+belize_95bec847b971,alarmed,Vehicle,0.34,Vehicle 0.34; Train 0.19; Rail transport 0.13,0.335,0.002,0.004,0.01,0.011
+belize_cafbbbfaa68e,alarmed,Patter,0.2,Patter 0.20; Mouse 0.18; Animal 0.18,0.017,0.0,0.01,0.026,0.005
+belize_0a1f608364c8,alarmed,Tick-tock,0.48,Tick-tock 0.48; Tick 0.34; Animal 0.21,0.01,0.0,0.002,0.035,0.006
+belize_2cd267596d4d,alarmed,Insect,0.23,"Insect 0.23; Fly, housefly 0.14; Animal 0.12",0.01,0.0,0.233,0.033,0.001
+belize_a9ea821dbcec,alarmed,Finger snapping,0.12,Finger snapping 0.12; Tick-tock 0.06; Tick 0.06,0.016,0.001,0.044,0.016,0.003
+belize_d51d9724da71,alarmed,Animal,0.2,Animal 0.20; Mouse 0.20; Patter 0.16,0.081,0.0,0.008,0.032,0.009
+belize_4d026e98a529,alarmed,Mouse,0.13,Mouse 0.13; Tick 0.09; Animal 0.09,0.034,0.0,0.01,0.017,0.012
+belize_3fe601e6d85a,alarmed,Mouse,0.07,Mouse 0.07; White noise 0.07; Animal 0.06,0.047,0.001,0.009,0.011,0.01
+belize_f4fb1717c9cf,alarmed,Animal,0.17,Animal 0.17; Speech 0.08; Mouse 0.05,0.036,0.001,0.013,0.04,0.02
+belize_f08afce59ebd,alarmed,Arrow,0.28,"Arrow 0.28; Inside, small room 0.13; Typewriter 0.07",0.022,0.003,0.002,0.003,0.003
+belize_b491170782aa,alarmed,Tick,0.31,Tick 0.31; Tick-tock 0.30; Vehicle 0.07,0.071,0.0,0.011,0.013,0.005
+belize_b1a7f5c6d240,alarmed,Speech,0.1,"Speech 0.10; Animal 0.10; Inside, small room 0.08",0.014,0.001,0.005,0.022,0.004
+belize_270ef6ed152f,alarmed,Tick-tock,0.24,Tick-tock 0.24; Tick 0.22; Clock 0.13,0.043,0.0,0.003,0.01,0.007
+belize_b18d95209f50,alarmed,Mouse,0.13,Mouse 0.13; White noise 0.11; Animal 0.06,0.053,0.0,0.014,0.013,0.007
+belize_77f2d1311f41,alarmed,Patter,0.48,"Patter 0.48; Animal 0.44; Rodents, rats, mice 0.41",0.04,0.0,0.008,0.054,0.004
+belize_bb8ccf6f2915,alarmed,Tick,0.28,Tick 0.28; Tick-tock 0.27; Mouse 0.10,0.027,0.0,0.006,0.023,0.014
+belize_556a777adf11,alarmed,Mouse,0.14,Mouse 0.14; Animal 0.09; White noise 0.09,0.038,0.001,0.02,0.008,0.007
+belize_64e80038e4a4,alarmed,Animal,0.18,Animal 0.18; Mouse 0.05; Speech 0.05,0.045,0.001,0.044,0.049,0.016
+belize_3f1956a78648,alarmed,Singing bowl,0.22,Singing bowl 0.22; Music 0.19; Tuning fork 0.10,0.014,0.0,0.008,0.002,0.003
+belize_f653ef466261,alarmed,Music,0.57,Music 0.57; Rain on surface 0.06; Musical instrument 0.06,0.032,0.0,0.003,0.007,0.064
+belize_ffd6263420f4,alarmed,Vehicle,0.31,Vehicle 0.31; Car 0.08; White noise 0.06,0.312,0.001,0.009,0.012,0.01
+belize_e9444650e089,quiet,"Neigh, whinny",0.81,"Neigh, whinny 0.81; Horse 0.66; Animal 0.63",0.006,0.0,0.002,0.007,0.006
+belize_e7fcff941f2a,quiet,Frog,0.6,Frog 0.60; Animal 0.12; Croak 0.09,0.039,0.002,0.016,0.602,0.002
+belize_e01a8226e330,quiet,Whistling,0.12,Whistling 0.12; Animal 0.09; Bird 0.06,0.042,0.0,0.011,0.06,0.017
+belize_2e9c514451e3,quiet,Animal,0.07,Animal 0.07; Music 0.06; Speech 0.04,0.024,0.001,0.012,0.014,0.004
+belize_9108ef76f8b7,quiet,Cricket,0.1,Cricket 0.10; Snake 0.07; Hiss 0.05,0.039,0.0,0.097,0.006,0.005
+belize_a6840b69c7a8,quiet,Animal,0.25,Animal 0.25; Frog 0.22; Bird 0.06,0.027,0.0,0.025,0.217,0.007
+belize_4995b4d7d5b0,quiet,Vehicle,0.12,"Vehicle 0.12; Telephone dialing, DTMF 0.06; Reversing beeps 0.05",0.122,0.001,0.002,0.004,0.011
+belize_13ba29af20b4,quiet,Vehicle,0.34,Vehicle 0.34; Bicycle 0.09; Car 0.08,0.336,0.001,0.008,0.004,0.015
+belize_29cefd771781,quiet,Bird,0.36,"Bird 0.36; Squawk 0.20; Bird vocalization, bird call, bird song 0.19",0.018,0.0,0.011,0.359,0.011
+belize_6cf1d036aa02,quiet,Animal,0.23,"Animal 0.23; Chicken, rooster 0.18; Crowing, cock-a-doodle-doo 0.15",0.025,0.0,0.016,0.092,0.004
+belize_6e0ac265429c,quiet,Mouse,0.09,Mouse 0.09; Animal 0.08; Bird 0.08,0.015,0.001,0.016,0.08,0.003
+belize_a2d5671f66ff,quiet,Bird,0.3,Bird 0.30; Animal 0.22; Environmental noise 0.22,0.011,0.0,0.023,0.304,0.006
+belize_443955c50640,quiet,Vehicle,0.26,"Vehicle 0.26; Boat, Water vehicle 0.16; Animal 0.10",0.255,0.001,0.013,0.007,0.018
+belize_df401b161a49,quiet,Owl,0.1,Owl 0.10; Frog 0.09; Animal 0.09,0.031,0.001,0.065,0.088,0.003
+belize_a71b178d56f7,quiet,Tick-tock,0.33,"Tick-tock 0.33; Tick 0.26; Inside, small room 0.10",0.012,0.001,0.002,0.031,0.002
+belize_14dc436cc8bd,quiet,Animal,0.56,"Animal 0.56; Domestic animals, pets 0.37; Dog 0.34",0.01,0.0,0.004,0.017,0.005
+belize_03d3e43e0ce6,quiet,Frog,0.24,Frog 0.24; Insect 0.13; Cricket 0.11,0.012,0.001,0.133,0.239,0.003
+belize_bc6297bdbebe,quiet,Rain on surface,0.19,Rain on surface 0.19; Rain 0.13; Vehicle 0.10,0.1,0.002,0.002,0.004,0.186
+belize_72acce1b27c9,quiet,Vehicle,0.15,"Vehicle 0.15; Speech 0.10; Ratchet, pawl 0.07",0.154,0.001,0.01,0.003,0.028
+belize_279c2ef93f7f,quiet,Rattle,0.22,Rattle 0.22; Rattle (instrument) 0.19; Maraca 0.16,0.016,0.0,0.005,0.01,0.007
+belize_e54a2fb7913f,quiet,Tick,0.09,Tick 0.09; Tick-tock 0.08; White noise 0.07,0.048,0.0,0.005,0.01,0.017
+belize_0d183ddaf561,quiet,Animal,0.42,"Animal 0.42; Rodents, rats, mice 0.14; Domestic animals, pets 0.11",0.017,0.0,0.011,0.043,0.002
+belize_716f7504d17b,quiet,Fowl,0.31,"Fowl 0.31; Bird 0.26; Bird vocalization, bird call, bird song 0.17",0.009,0.001,0.003,0.264,0.004
+belize_34e10a7b0f71,quiet,Radio,0.11,Radio 0.11; Static 0.08; Mechanisms 0.07,0.008,0.001,0.001,0.003,0.001
+belize_5debf63231f9,quiet,Animal,0.36,Animal 0.36; Sonar 0.13; Frog 0.11,0.011,0.001,0.088,0.106,0.003
+belize_42ece4ad2397,quiet,Frog,0.18,Frog 0.18; Animal 0.07; Insect 0.06,0.05,0.001,0.059,0.183,0.006
+belize_57aa9d81db84,quiet,Vehicle,0.32,"Vehicle 0.32; Boat, Water vehicle 0.26; Rowboat, canoe, kayak 0.25",0.32,0.001,0.004,0.01,0.026
+belize_90d5d4eff5f0,quiet,Animal,0.22,"Animal 0.22; Environmental noise 0.16; Outside, rural or natural 0.15",0.036,0.0,0.133,0.139,0.022
+belize_9ae1d8c62fc1,quiet,Animal,0.3,Animal 0.30; Frog 0.22; Bird 0.17,0.046,0.0,0.082,0.219,0.005
+belize_7313e9244650,quiet,"Rowboat, canoe, kayak",0.3,"Rowboat, canoe, kayak 0.30; Vehicle 0.19; Boat, Water vehicle 0.17",0.192,0.0,0.007,0.009,0.023
+belize_ac28575be95c,quiet,Frog,0.09,Frog 0.09; Cricket 0.08; Animal 0.07,0.037,0.001,0.077,0.094,0.003
+belize_b384639acc79,quiet,Vehicle,0.1,Vehicle 0.10; Frog 0.05; Speech 0.04,0.104,0.002,0.014,0.05,0.006
+belize_6257beac7e25,quiet,Hiss,0.1,Hiss 0.10; Animal 0.08; Snake 0.07,0.05,0.001,0.008,0.012,0.022
+belize_8ff999091599,quiet,Vehicle,0.06,Vehicle 0.06; Tick 0.04; Rain 0.04,0.06,0.0,0.008,0.006,0.041
+belize_7759df42b5d9,quiet,Vehicle,0.07,Vehicle 0.07; White noise 0.07; Static 0.05,0.072,0.001,0.005,0.006,0.018
+belize_71d3067dc4d1,quiet,Environmental noise,0.16,Environmental noise 0.16; Animal 0.14; Bird 0.14,0.019,0.001,0.029,0.138,0.024
+belize_63b4d5b00a05,quiet,Vehicle,0.3,Vehicle 0.30; Animal 0.09; Speech 0.09,0.305,0.001,0.003,0.004,0.017
+belize_568bd537f8c0,quiet,Animal,0.27,"Animal 0.27; Mouse 0.11; Domestic animals, pets 0.09",0.048,0.001,0.021,0.053,0.013
+belize_b793a662557d,quiet,Animal,0.06,Animal 0.06; Speech 0.05; Snake 0.04,0.031,0.004,0.011,0.015,0.01
+belize_b7cc85f30c55,quiet,Mouse,0.44,Mouse 0.44; Animal 0.22; Bird 0.17,0.013,0.0,0.005,0.165,0.009
+belize_331eb8a60cec,quiet,Frog,0.72,Frog 0.72; Insect 0.13; Croak 0.13,0.009,0.0,0.135,0.723,0.001
+belize_dd6ac5b8afce,quiet,Mechanisms,0.27,"Mechanisms 0.27; Ratchet, pawl 0.25; Gears 0.07",0.05,0.002,0.011,0.004,0.007
+belize_c4491bb080ff,quiet,Frog,0.56,Frog 0.56; Croak 0.12; Animal 0.10,0.067,0.001,0.028,0.56,0.004
+belize_9b980d215b43,quiet,Animal,0.38,"Animal 0.38; Wild animals 0.15; Outside, rural or natural 0.11",0.042,0.001,0.046,0.072,0.011
+belize_722047da3aef,quiet,Frog,0.19,Frog 0.19; Animal 0.10; Bird 0.08,0.022,0.0,0.042,0.192,0.002
+belize_d80e06d69306,quiet,Animal,0.23,Animal 0.23; Bird 0.06; Speech 0.06,0.037,0.001,0.014,0.06,0.011
+belize_4c656b3be57a,quiet,Frog,0.51,Frog 0.51; Cricket 0.14; Insect 0.13,0.017,0.0,0.143,0.506,0.002
+belize_1d70ae2ac9f8,quiet,Animal,0.26,"Animal 0.26; Bird 0.12; Outside, rural or natural 0.08",0.017,0.0,0.067,0.122,0.012
+belize_fd946da14b8e,quiet,Sizzle,0.16,Sizzle 0.16; Frying (food) 0.14; Vehicle 0.11,0.108,0.001,0.006,0.003,0.027
+belize_2fa8af0a3514,quiet,Animal,0.34,"Animal 0.34; Domestic animals, pets 0.14; Mouse 0.11",0.017,0.0,0.005,0.083,0.005
+belize_ead2d67df23a,quiet,Bird,0.13,"Bird 0.13; Animal 0.13; Bird vocalization, bird call, bird song 0.10",0.014,0.0,0.034,0.129,0.002
+belize_5412fd5fa528,quiet,Cricket,0.34,Cricket 0.34; Insect 0.30; Music 0.12,0.02,0.001,0.338,0.064,0.006
+belize_a984066e6787,quiet,White noise,0.16,White noise 0.16; Static 0.06; Vehicle 0.06,0.061,0.0,0.007,0.006,0.013
+belize_39adc2ce4f4d,quiet,Animal,0.15,Animal 0.15; Vehicle 0.06; Speech 0.05,0.059,0.001,0.039,0.024,0.031
+belize_cc3a82f2e7d2,quiet,Animal,0.1,Animal 0.10; Snake 0.07; Tick 0.06,0.044,0.001,0.006,0.011,0.017
+belize_dc2b3f5f0609,quiet,Animal,0.11,Animal 0.11; Frog 0.10; Cricket 0.08,0.055,0.0,0.078,0.102,0.004
+belize_4b3967de5092,quiet,"Crowing, cock-a-doodle-doo",0.38,"Crowing, cock-a-doodle-doo 0.38; Chicken, rooster 0.38; Fowl 0.33",0.026,0.001,0.003,0.088,0.003
+belize_039fcfc11482,quiet,Vehicle,0.15,"Vehicle 0.15; Boat, Water vehicle 0.08; Snake 0.06",0.151,0.002,0.027,0.021,0.03
+belize_e64e14d27ca5,quiet,Environmental noise,0.31,Environmental noise 0.31; Animal 0.17; Bird 0.17,0.007,0.0,0.026,0.167,0.006
+belize_ac54cf6579c7,quiet,Tick-tock,0.18,Tick-tock 0.18; Tick 0.17; Animal 0.08,0.028,0.0,0.008,0.013,0.016
+belize_21d2ad9401d7,quiet,Animal,0.4,Animal 0.40; Bow-wow 0.37; Dog 0.32,0.041,0.001,0.003,0.046,0.006
+belize_0ca34c3378d7,quiet,Animal,0.64,"Animal 0.64; Dog 0.50; Domestic animals, pets 0.43",0.012,0.001,0.003,0.003,0.004
+belize_63cd64656222,quiet,Vehicle,0.09,Vehicle 0.09; Aircraft 0.04; Music 0.03,0.09,0.001,0.023,0.006,0.003
+belize_8052114d10e8,quiet,Environmental noise,0.28,Environmental noise 0.28; Animal 0.11; Insect 0.09,0.072,0.0,0.088,0.079,0.012
+belize_ca8977ab0dc5,quiet,Sonar,0.2,Sonar 0.20; Music 0.07; Vehicle 0.04,0.043,0.001,0.007,0.004,0.002
+belize_7dabc2ce1789,quiet,Animal,0.06,Animal 0.06; Vehicle 0.06; Speech 0.04,0.056,0.001,0.009,0.011,0.021
+belize_c5c53b62aeee,quiet,Vehicle,0.2,"Vehicle 0.20; Boat, Water vehicle 0.11; White noise 0.08",0.195,0.001,0.024,0.008,0.027
+belize_8bcf42eb582a,quiet,Animal,0.1,Animal 0.10; Vehicle 0.09; Speech 0.05,0.086,0.001,0.004,0.017,0.015
+belize_3184e9e755e4,quiet,Vehicle,0.08,Vehicle 0.08; Animal 0.05; Rustling leaves 0.04,0.085,0.001,0.005,0.012,0.04
+belize_c3d5eb858de1,quiet,Bird,0.33,"Bird 0.33; Bird vocalization, bird call, bird song 0.28; Chirp, tweet 0.24",0.013,0.001,0.058,0.332,0.01
+belize_5443339aac0b,quiet,White noise,0.07,White noise 0.07; Animal 0.07; Vehicle 0.06,0.061,0.001,0.015,0.009,0.015
+belize_8ff2d3bccc2e,quiet,Animal,0.11,Animal 0.11; Frog 0.07; Speech 0.05,0.042,0.0,0.025,0.066,0.004
+belize_f65427d9de12,quiet,Speech,0.58,Speech 0.58; Vehicle 0.36; Car 0.21,0.355,0.017,0.012,0.007,0.004
+belize_ac98b9cc0934,quiet,Animal,0.13,Animal 0.13; Tick-tock 0.11; Tick 0.09,0.015,0.001,0.003,0.017,0.006
+belize_af82187b9c22,quiet,Animal,0.23,Animal 0.23; Owl 0.15; Bird 0.10,0.039,0.001,0.019,0.099,0.009
+belize_0950180b5b0b,quiet,Static,0.11,Static 0.11; White noise 0.07; Animal 0.04,0.038,0.001,0.006,0.007,0.012
+belize_a9084dfe07ca,quiet,Mechanisms,0.38,"Mechanisms 0.38; Ratchet, pawl 0.25; Gears 0.10",0.087,0.001,0.01,0.06,0.004
+belize_2e7930b7ffe0,quiet,Speech,0.24,"Speech 0.24; Stream 0.15; Rowboat, canoe, kayak 0.13",0.132,0.0,0.001,0.008,0.15
+belize_bda1ea8d2300,quiet,Patter,0.13,"Patter 0.13; Rodents, rats, mice 0.09; Vehicle 0.09",0.092,0.0,0.005,0.01,0.025
+belize_7c6d63448141,quiet,Animal,0.37,"Animal 0.37; Mouse 0.14; Domestic animals, pets 0.12",0.026,0.0,0.01,0.116,0.011
+belize_3a9514d6ba52,quiet,Arrow,0.24,Arrow 0.24; Typewriter 0.16; Cap gun 0.05,0.007,0.052,0.001,0.007,0.002
+belize_40bc2da0904f,quiet,Patter,0.67,"Patter 0.67; Rodents, rats, mice 0.47; Animal 0.22",0.031,0.0,0.009,0.022,0.002
+belize_07455091dc17,quiet,Animal,0.28,"Animal 0.28; Rodents, rats, mice 0.11; Domestic animals, pets 0.11",0.054,0.0,0.007,0.085,0.002
+belize_2e75f94fef58,quiet,Vehicle,0.1,Vehicle 0.10; Speech 0.06; Music 0.05,0.104,0.001,0.014,0.004,0.003
+belize_a55643b2b751,quiet,Bird,0.28,"Bird 0.28; Bird vocalization, bird call, bird song 0.20; Chirp, tweet 0.18",0.036,0.0,0.046,0.282,0.007
+belize_f2f59f3923c6,quiet,Music,0.22,Music 0.22; Vehicle 0.07; Mechanisms 0.06,0.075,0.003,0.008,0.019,0.004
+belize_8919fb72a9f8,quiet,Cricket,0.17,Cricket 0.17; Insect 0.14; Owl 0.12,0.025,0.0,0.172,0.067,0.007
+belize_df339f882d4e,quiet,Speech,0.14,Speech 0.14; Vehicle 0.09; Chop 0.07,0.091,0.0,0.002,0.009,0.002
+belize_13c44b0c1d05,quiet,Frog,0.14,Frog 0.14; Animal 0.08; Vehicle 0.07,0.069,0.002,0.012,0.143,0.007
+belize_334944ae3edb,quiet,Animal,0.16,Animal 0.16; Music 0.07; Speech 0.05,0.045,0.001,0.008,0.041,0.011
+belize_5c72e17b6990,quiet,Cricket,0.24,Cricket 0.24; Insect 0.22; Environmental noise 0.18,0.102,0.001,0.243,0.07,0.009
+belize_c13b811c4154,quiet,White noise,0.11,White noise 0.11; Static 0.08; Vehicle 0.05,0.055,0.001,0.004,0.003,0.027
+belize_31316075b82a,quiet,Animal,0.31,"Animal 0.31; Bow-wow 0.24; Chicken, rooster 0.22",0.021,0.001,0.007,0.083,0.002
+belize_4eccf8180511,quiet,Patter,0.29,"Patter 0.29; Rodents, rats, mice 0.26; Rowboat, canoe, kayak 0.17",0.169,0.0,0.011,0.019,0.006
+belize_f52f6ce74e1b,quiet,Vehicle,0.14,Vehicle 0.14; Aircraft 0.07; White noise 0.06,0.145,0.001,0.026,0.005,0.004
+belize_a15e0b4f640d,quiet,Frog,0.31,Frog 0.31; Animal 0.11; Snake 0.05,0.031,0.0,0.001,0.313,0.009
+belize_ccf701ce3b74,quiet,Music,0.17,Music 0.17; Environmental noise 0.12; Insect 0.11,0.019,0.0,0.111,0.09,0.003
+belize_57b1feed9bd0,quiet,"Rowboat, canoe, kayak",0.43,"Rowboat, canoe, kayak 0.43; Vehicle 0.32; Boat, Water vehicle 0.32",0.322,0.0,0.007,0.016,0.025
+belize_79fba522acf3,quiet,Static,0.09,Static 0.09; White noise 0.08; Hum 0.06,0.047,0.001,0.027,0.004,0.007
+belize_8ad9c06b1114,quiet,Frog,0.16,Frog 0.16; Animal 0.11; Bird 0.09,0.037,0.001,0.05,0.159,0.004
+belize_27f13fc96103,quiet,Tick-tock,0.35,Tick-tock 0.35; Tick 0.32; Animal 0.09,0.021,0.0,0.003,0.013,0.034
+belize_763df704b60e,quiet,Animal,0.18,"Animal 0.18; Outside, rural or natural 0.08; Vehicle 0.08",0.077,0.001,0.066,0.054,0.043
+belize_daff74e53d88,quiet,Environmental noise,0.19,Environmental noise 0.19; Animal 0.17; Bird 0.16,0.029,0.0,0.117,0.165,0.006
+belize_2e5c1e78a78b,quiet,Vehicle,0.12,Vehicle 0.12; Jet engine 0.10; Aircraft 0.07,0.123,0.002,0.041,0.017,0.003
+belize_9439aee8c51d,quiet,Hiss,0.09,Hiss 0.09; Rub 0.08; Printer 0.05,0.05,0.001,0.022,0.003,0.002
+belize_3de02f7a6758,quiet,Knock,0.21,Knock 0.21; Chop 0.11; Animal 0.08,0.074,0.0,0.051,0.028,0.015
+belize_7efbc6dabb7d,quiet,"Rodents, rats, mice",0.33,"Rodents, rats, mice 0.33; Patter 0.18; Drip 0.18",0.029,0.0,0.001,0.039,0.027
+belize_5dc3e1e16359,quiet,"Rodents, rats, mice",0.43,"Rodents, rats, mice 0.43; Patter 0.34; Mouse 0.27",0.019,0.0,0.009,0.056,0.004
+belize_be2eb20aacde,quiet,Frog,0.33,Frog 0.33; Animal 0.15; Cricket 0.08,0.027,0.001,0.08,0.328,0.004
+belize_4c6b600ae702,quiet,Cricket,0.43,Cricket 0.43; Insect 0.40; Owl 0.28,0.011,0.001,0.429,0.047,0.001
+belize_90604022fbca,quiet,Patter,0.11,Patter 0.11; Bird 0.10; Animal 0.07,0.038,0.001,0.007,0.096,0.028
+belize_30a671bf12aa,quiet,Hiss,0.16,Hiss 0.16; Vehicle 0.13; Steam 0.13,0.128,0.0,0.004,0.006,0.006
+belize_2f58d7dbdc2d,quiet,Vehicle,0.15,Vehicle 0.15; Car 0.09; Music 0.08,0.148,0.0,0.002,0.013,0.001
+belize_8e534925ff0f,quiet,Animal,0.28,Animal 0.28; Cricket 0.18; Insect 0.15,0.029,0.0,0.178,0.105,0.017
+belize_310174ff17a3,quiet,Snort,0.05,Snort 0.05; Animal 0.05; Speech 0.04,0.035,0.001,0.003,0.006,0.02
+belize_e6000534740a,quiet,Music,0.18,"Music 0.18; Animal 0.10; Outside, rural or natural 0.06",0.037,0.001,0.057,0.061,0.007
+belize_a7138659ebb6,quiet,Bird,0.35,"Bird 0.35; Bird vocalization, bird call, bird song 0.21; Animal 0.19",0.014,0.0,0.004,0.352,0.004
+belize_5e3ecd07e28d,quiet,Insect,0.13,Insect 0.13; Cricket 0.10; Whistle 0.09,0.032,0.0,0.127,0.017,0.002
+belize_3cf632f0d385,quiet,Vehicle,0.17,Vehicle 0.17; Patter 0.10; Animal 0.08,0.174,0.001,0.02,0.008,0.014
+belize_50c4fa6b413c,quiet,Frog,0.73,Frog 0.73; Insect 0.32; Cricket 0.31,0.006,0.0,0.319,0.728,0.002
+belize_28e9af57e086,quiet,Static,0.15,Static 0.15; Radio 0.07; Mechanisms 0.06,0.019,0.002,0.003,0.003,0.003
+belize_94863b7397e2,quiet,Animal,0.25,"Animal 0.25; Cat 0.22; Domestic animals, pets 0.18",0.004,0.0,0.003,0.048,0.002
+belize_27ee6a97a642,quiet,White noise,0.16,White noise 0.16; Static 0.09; Pink noise 0.06,0.042,0.0,0.004,0.006,0.012
+belize_4361cea13157,quiet,Environmental noise,0.5,Environmental noise 0.50; Animal 0.17; Bird 0.16,0.02,0.0,0.072,0.157,0.01
+belize_c895413f17ac,quiet,Animal,0.16,"Animal 0.16; Patter 0.07; Rodents, rats, mice 0.05",0.028,0.0,0.008,0.013,0.004
+belize_0f47d80a490e,quiet,Insect,0.31,Insect 0.31; Cricket 0.28; Frog 0.26,0.027,0.001,0.307,0.26,0.003
+belize_3af0f4a5ab3c,quiet,Vehicle,0.05,Vehicle 0.05; Speech 0.04; White noise 0.04,0.054,0.001,0.004,0.006,0.032
+belize_26a2699fb09a,quiet,Animal,0.24,Animal 0.24; Environmental noise 0.14; Horse 0.12,0.018,0.0,0.01,0.116,0.01
+belize_9598993db4d0,quiet,Environmental noise,0.28,Environmental noise 0.28; Bird 0.19; Animal 0.15,0.016,0.001,0.132,0.186,0.011
+belize_222f89009310,quiet,Animal,0.13,Animal 0.13; Snake 0.07; Hiss 0.07,0.039,0.0,0.006,0.013,0.01
+belize_c295897845ee,quiet,Frog,0.43,Frog 0.43; Croak 0.17; Mechanisms 0.13,0.06,0.001,0.004,0.434,0.003
+belize_69413b84a67e,quiet,Rub,0.33,Rub 0.33; Sanding 0.14; Filing (rasp) 0.11,0.027,0.001,0.002,0.002,0.004
+belize_6e9167a348e8,quiet,Cricket,0.33,Cricket 0.33; Insect 0.16; Snake 0.07,0.047,0.001,0.33,0.009,0.005
+belize_018f8a260100,quiet,Animal,0.39,"Animal 0.39; Domestic animals, pets 0.23; Dog 0.20",0.02,0.0,0.003,0.021,0.005
+belize_c1742ae89b65,quiet,Frog,0.25,Frog 0.25; Cricket 0.08; Insect 0.07,0.048,0.0,0.081,0.254,0.001
+belize_f1012a06bf1e,quiet,Vehicle,0.28,"Vehicle 0.28; Rowboat, canoe, kayak 0.25; Boat, Water vehicle 0.25",0.284,0.0,0.006,0.003,0.012
+belize_c1a9b6c2f7cc,quiet,Animal,0.17,Animal 0.17; Bird 0.12; Mouse 0.08,0.031,0.0,0.011,0.123,0.01
+belize_d06de44bf9c8,quiet,Animal,0.14,"Animal 0.14; Bird 0.08; Rodents, rats, mice 0.06",0.045,0.001,0.01,0.085,0.007
+belize_e91632710df3,quiet,Animal,0.45,"Animal 0.45; Cat 0.30; Domestic animals, pets 0.21",0.009,0.001,0.013,0.057,0.004
+belize_8582271ad447,quiet,Vehicle,0.15,Vehicle 0.15; White noise 0.06; Aircraft 0.04,0.152,0.001,0.035,0.012,0.004
+belize_5a44811d630e,quiet,Speech,0.54,Speech 0.54; Tick-tock 0.19; Animal 0.14,0.064,0.001,0.006,0.025,0.004
+belize_61df9b597a2b,quiet,Animal,0.22,Animal 0.22; Fowl 0.21; Bird 0.19,0.01,0.001,0.006,0.186,0.004
+belize_83b7281eac89,quiet,Speech,0.09,Speech 0.09; Vehicle 0.08; Animal 0.07,0.081,0.001,0.011,0.011,0.018
+belize_238fcfdf0104,quiet,"Rowboat, canoe, kayak",0.39,"Rowboat, canoe, kayak 0.39; Vehicle 0.30; Boat, Water vehicle 0.29",0.297,0.0,0.121,0.094,0.024
+belize_dff261e3b65f,quiet,Speech,0.73,"Speech 0.73; Vehicle 0.33; Boat, Water vehicle 0.29",0.332,0.002,0.002,0.006,0.038
+belize_c48d042ae149,quiet,Animal,0.31,Animal 0.31; Bird 0.19; Environmental noise 0.18,0.019,0.001,0.011,0.189,0.005
+belize_c84d7ae33d9c,quiet,Animal,0.25,Animal 0.25; Patter 0.06; Vehicle 0.05,0.052,0.0,0.02,0.033,0.009
+belize_eda659d73e9f,quiet,Vehicle,0.08,Vehicle 0.08; Animal 0.04; Music 0.03,0.084,0.001,0.009,0.007,0.006
+belize_df83d4e65d70,quiet,Environmental noise,0.18,Environmental noise 0.18; Animal 0.16; Bird 0.11,0.095,0.001,0.098,0.107,0.023
+belize_835fd462631b,quiet,Bird,0.23,"Bird 0.23; Animal 0.20; Domestic animals, pets 0.16",0.01,0.0,0.004,0.228,0.009
+belize_9d2ca04ec1cf,quiet,Animal,0.16,Animal 0.16; Snort 0.08; Speech 0.05,0.029,0.001,0.008,0.021,0.017
+belize_69b2826d744b,quiet,Vehicle,0.15,Vehicle 0.15; Animal 0.10; Insect 0.08,0.146,0.002,0.077,0.024,0.013
+belize_167534e5a3f5,quiet,White noise,0.11,White noise 0.11; Rustle 0.06; Silence 0.06,0.056,0.001,0.007,0.009,0.019
+belize_dadc2bf087e8,quiet,Sizzle,0.26,Sizzle 0.26; Stir 0.23; Frying (food) 0.23,0.06,0.001,0.005,0.008,0.01
+belize_c8118ce3ac1e,quiet,Animal,0.27,Animal 0.27; Cricket 0.18; Insect 0.14,0.051,0.0,0.175,0.072,0.018
+belize_5a056c82b13b,quiet,Patter,0.12,Patter 0.12; Bird 0.12; Animal 0.11,0.064,0.001,0.014,0.122,0.044
+belize_b6dd7bddebf7,quiet,Frog,0.28,Frog 0.28; Animal 0.08; Speech 0.05,0.024,0.0,0.016,0.282,0.002
+belize_56991b08e55b,quiet,Frog,0.08,Frog 0.08; Vehicle 0.08; Mechanisms 0.05,0.075,0.001,0.011,0.085,0.004
+belize_a566bdff5455,quiet,Hiss,0.1,Hiss 0.10; Vehicle 0.07; Train 0.06,0.072,0.001,0.012,0.006,0.004
+belize_efb7a10e60dd,quiet,Tick,0.2,Tick 0.20; Tick-tock 0.20; White noise 0.07,0.037,0.0,0.005,0.01,0.018
+belize_8b80223729f4,quiet,Thunder,0.26,Thunder 0.26; Thunderstorm 0.14; Animal 0.12,0.038,0.007,0.044,0.034,0.265
+belize_ee35ccfdacf4,quiet,Vehicle,0.12,Vehicle 0.12; Animal 0.09; Snake 0.06,0.115,0.0,0.034,0.018,0.004
+belize_47313272f576,quiet,Bird,0.52,"Bird 0.52; Bird vocalization, bird call, bird song 0.40; Chirp, tweet 0.38",0.01,0.0,0.009,0.523,0.003
+belize_0854396d3983,quiet,"Rowboat, canoe, kayak",0.66,"Rowboat, canoe, kayak 0.66; Boat, Water vehicle 0.47; Vehicle 0.38",0.379,0.0,0.003,0.005,0.031
+belize_fa893d1f6db1,quiet,Animal,0.1,"Animal 0.10; Outside, rural or natural 0.09; Vehicle 0.07",0.072,0.001,0.044,0.061,0.006
+belize_e9f65e0b629a,quiet,Radio,0.18,Radio 0.18; Music 0.10; Speech 0.09,0.014,0.0,0.005,0.025,0.001
+belize_4109f3c12a2e,quiet,Animal,0.13,Animal 0.13; Frog 0.12; Caw 0.05,0.048,0.001,0.019,0.12,0.006
+belize_4e39533f02d4,quiet,Music,0.11,Music 0.11; Vehicle 0.07; Animal 0.06,0.073,0.001,0.047,0.026,0.008
+belize_0b20ea7e32e7,quiet,Mouse,0.11,Mouse 0.11; Animal 0.07; Vehicle 0.06,0.06,0.001,0.009,0.013,0.009
+belize_4c1f7a907720,quiet,Animal,0.3,"Animal 0.30; Horse 0.13; Walk, footsteps 0.11",0.04,0.001,0.021,0.053,0.018
+belize_5192d8a6e2b7,quiet,Animal,0.7,"Animal 0.70; Wild animals 0.23; Domestic animals, pets 0.20",0.033,0.001,0.011,0.048,0.01
+belize_3fad2d9babdb,quiet,Animal,0.11,"Animal 0.11; Mouse 0.08; Inside, small room 0.06",0.026,0.001,0.006,0.032,0.009
+belize_1fa0966912b0,quiet,Animal,0.23,"Animal 0.23; Bird 0.13; Domestic animals, pets 0.10",0.017,0.001,0.024,0.126,0.005
+belize_2fb4dcd8a0a2,quiet,Vehicle,0.13,"Vehicle 0.13; Mechanisms 0.09; Ratchet, pawl 0.06",0.133,0.001,0.003,0.006,0.009
+belize_cdc190d5dc7e,quiet,Bow-wow,0.35,Bow-wow 0.35; Animal 0.29; Dog 0.26,0.014,0.0,0.002,0.022,0.009
+belize_5e5a48efb193,quiet,Animal,0.09,Animal 0.09; Music 0.06; Speech 0.05,0.031,0.001,0.019,0.042,0.003
+belize_d796bd7fca12,quiet,Bow-wow,0.49,Bow-wow 0.49; Animal 0.49; Dog 0.43,0.032,0.0,0.002,0.016,0.008
+belize_01fa4d0def7b,quiet,Snake,0.08,Snake 0.08; Music 0.05; Cricket 0.04,0.028,0.004,0.037,0.011,0.007
+belize_9fdf920d3786,quiet,Animal,0.17,Animal 0.17; Bird 0.14; Mouse 0.10,0.037,0.0,0.053,0.14,0.008
+belize_500420d1e625,quiet,Animal,0.28,"Animal 0.28; Domestic animals, pets 0.08; Tick-tock 0.05",0.037,0.001,0.006,0.028,0.011
+belize_7bf86e2dedda,quiet,Cricket,0.49,Cricket 0.49; Insect 0.32; Animal 0.06,0.014,0.0,0.489,0.034,0.004
+belize_f70f209633cd,quiet,Cricket,0.39,Cricket 0.39; Insect 0.20; Vehicle 0.08,0.078,0.001,0.39,0.018,0.008
+belize_2d39e2c28f38,quiet,Static,0.3,Static 0.30; Radio 0.23; White noise 0.15,0.027,0.0,0.003,0.002,0.003
+belize_d842ace229b1,quiet,White noise,0.08,White noise 0.08; Vehicle 0.07; Sizzle 0.07,0.07,0.001,0.009,0.006,0.023
+belize_1c6ec5a1562e,quiet,Vehicle,0.17,Vehicle 0.17; Mechanisms 0.05; Speech 0.04,0.174,0.002,0.027,0.004,0.006
+belize_cbf5b9ef0afd,quiet,Firecracker,0.44,Firecracker 0.44; Fireworks 0.39; Explosion 0.05,0.02,0.048,0.004,0.003,0.002
+belize_2d59b11f8996,quiet,Animal,0.06,"Animal 0.06; Cap gun 0.05; Gunshot, gunfire 0.05",0.012,0.051,0.008,0.047,0.005
+belize_36be1c1151e3,quiet,Bird,0.24,"Bird 0.24; Animal 0.20; Bird vocalization, bird call, bird song 0.17",0.022,0.0,0.021,0.244,0.007
+belize_bbf3d7ac2a95,quiet,Vehicle,0.16,Vehicle 0.16; Aircraft 0.07; White noise 0.06,0.156,0.002,0.013,0.007,0.006
+belize_5a8de05c18ee,quiet,White noise,0.09,White noise 0.09; Silence 0.06; Animal 0.05,0.048,0.001,0.007,0.009,0.013
+belize_c23589cad51e,quiet,Animal,0.3,Animal 0.30; Patter 0.23; Clip-clop 0.22,0.067,0.0,0.002,0.008,0.014
+belize_5b030c86d809,quiet,"Boat, Water vehicle",0.28,"Boat, Water vehicle 0.28; Vehicle 0.28; Rowboat, canoe, kayak 0.23",0.284,0.0,0.005,0.006,0.031
+belize_3badc5cb110f,quiet,Animal,0.13,"Animal 0.13; Inside, small room 0.06; Snake 0.06",0.019,0.0,0.004,0.006,0.007
+belize_9b1f5b055e32,quiet,White noise,0.06,White noise 0.06; Music 0.06; Rustle 0.05,0.049,0.001,0.004,0.006,0.027
+belize_006a81085972,quiet,Rain on surface,0.19,Rain on surface 0.19; Rain 0.17; Raindrop 0.10,0.063,0.001,0.003,0.004,0.187
+belize_c5d12e2af450,quiet,Speech,0.25,Speech 0.25; Vehicle 0.14; Bicycle 0.09,0.144,0.001,0.003,0.005,0.091
+belize_4e6edb0fac96,quiet,Animal,0.39,Animal 0.39; Tick-tock 0.15; Speech 0.09,0.019,0.0,0.002,0.013,0.002
+belize_646c14aaf89f,quiet,Cricket,0.2,Cricket 0.20; Music 0.18; Insect 0.15,0.027,0.0,0.205,0.046,0.007
+belize_8c6377ffb051,quiet,Vehicle,0.06,Vehicle 0.06; Animal 0.05; Music 0.04,0.056,0.001,0.031,0.015,0.005
+belize_31d957e1cf64,quiet,Animal,0.21,Animal 0.21; Environmental noise 0.09; Cricket 0.09,0.027,0.0,0.086,0.075,0.005

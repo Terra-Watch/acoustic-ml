@@ -1,0 +1,247 @@
+[
+ {
+  "file": "chainsaw_0.wav",
+  "cls": "chainsaw",
+  "source": "fsc22",
+  "id": "fsc22_5404779d3a29",
+  "seconds": 12.0
+ },
+ {
+  "file": "chainsaw_1.wav",
+  "cls": "chainsaw",
+  "source": "esc50",
+  "id": "esc50_e36d46864f16",
+  "seconds": 12.0
+ },
+ {
+  "file": "chainsaw_2.wav",
+  "cls": "chainsaw",
+  "source": "freesound_targeted",
+  "id": "freesound_targeted_b42d4529fde4",
+  "seconds": 12.0
+ },
+ {
+  "file": "chainsaw_3.wav",
+  "cls": "chainsaw",
+  "source": "rodopi",
+  "id": "rodopi_91ad5edd554e",
+  "seconds": 12.0
+ },
+ {
+  "file": "chainsaw_4.wav",
+  "cls": "chainsaw",
+  "source": "frugalai",
+  "id": "frugalai_0223658ba9a2",
+  "seconds": 12.0
+ },
+ {
+  "file": "chainsaw_5.wav",
+  "cls": "chainsaw",
+  "source": "fsc22",
+  "id": "fsc22_5b482b7c7a7e",
+  "seconds": 12.0
+ },
+ {
+  "file": "blast_0.wav",
+  "cls": "blast",
+  "source": "belize",
+  "id": "belize_8676b29da0df",
+  "seconds": 8.0
+ },
+ {
+  "file": "blast_1.wav",
+  "cls": "blast",
+  "source": "c3gd",
+  "id": "c3gd_02a55f187a4a",
+  "seconds": 5.0
+ },
+ {
+  "file": "blast_2.wav",
+  "cls": "blast",
+  "source": "fsc22",
+  "id": "fsc22_4792ff14eaf1",
+  "seconds": 9.0
+ },
+ {
+  "file": "blast_3.wav",
+  "cls": "blast",
+  "source": "fsd50k",
+  "id": "fsd50k_de393a4f5410",
+  "seconds": 8.6
+ },
+ {
+  "file": "blast_4.wav",
+  "cls": "blast",
+  "source": "belize",
+  "id": "belize_8d02522afcfc",
+  "seconds": 8.0
+ },
+ {
+  "file": "blast_5.wav",
+  "cls": "blast",
+  "source": "c3gd",
+  "id": "c3gd_d740e0b152cd",
+  "seconds": 5.0
+ },
+ {
+  "file": "fire_0.wav",
+  "cls": "fire",
+  "source": "esc50",
+  "id": "esc50_ee1654c51cb6",
+  "seconds": 12.0
+ },
+ {
+  "file": "fire_1.wav",
+  "cls": "fire",
+  "source": "fsd50k",
+  "id": "fsd50k_f0e37d706e05",
+  "seconds": 12.0
+ },
+ {
+  "file": "fire_2.wav",
+  "cls": "fire",
+  "source": "freesound_targeted",
+  "id": "freesound_targeted_bb10f7164105",
+  "seconds": 12.0
+ },
+ {
+  "file": "fire_3.wav",
+  "cls": "fire",
+  "source": "freesound_real_fire",
+  "id": "freesound_real_fire_de41210deb8f",
+  "seconds": 12.0
+ },
+ {
+  "file": "fire_4.wav",
+  "cls": "fire",
+  "source": "esc50",
+  "id": "esc50_9caddc316b5f",
+  "seconds": 12.0
+ },
+ {
+  "file": "fire_5.wav",
+  "cls": "fire",
+  "source": "fsd50k",
+  "id": "fsd50k_931b1f01ac7a",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_0.wav",
+  "cls": "wood",
+  "source": "fsc22",
+  "id": "fsc22_2f037ae49cbd",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_1.wav",
+  "cls": "wood",
+  "source": "fsd50k",
+  "id": "fsd50k_3c6465659e05",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_2.wav",
+  "cls": "wood",
+  "source": "freesound_targeted",
+  "id": "freesound_targeted_a181848202f6",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_3.wav",
+  "cls": "wood",
+  "source": "fsc22",
+  "id": "fsc22_15e20797a478",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_4.wav",
+  "cls": "wood",
+  "source": "fsd50k",
+  "id": "fsd50k_ae83643915e0",
+  "seconds": 12.0
+ },
+ {
+  "file": "wood_5.wav",
+  "cls": "wood",
+  "source": "freesound_targeted",
+  "id": "freesound_targeted_a181848202f6",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_0.wav",
+  "cls": "wind",
+  "source": "fsc22",
+  "id": "fsc22_6092dc6adc9e",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_1.wav",
+  "cls": "wind",
+  "source": "esc50",
+  "id": "esc50_a64dee64ef84",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_2.wav",
+  "cls": "wind",
+  "source": "fsd50k",
+  "id": "fsd50k_4d347df2b7e2",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_3.wav",
+  "cls": "wind",
+  "source": "fsc22",
+  "id": "fsc22_6092dc6adc9e",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_4.wav",
+  "cls": "wind",
+  "source": "esc50",
+  "id": "esc50_15c8e21dbfe3",
+  "seconds": 12.0
+ },
+ {
+  "file": "wind_5.wav",
+  "cls": "wind",
+  "source": "fsd50k",
+  "id": "fsd50k_09a99f076dda",
+  "seconds": 12.0
+ },
+ {
+  "file": "background_0.wav",
+  "cls": "background",
+  "source": "belize",
+  "id": "belize_e8d651040ca9",
+  "seconds": 12.0
+ },
+ {
+  "file": "background_1.wav",
+  "cls": "background",
+  "source": "fsc22",
+  "id": "fsc22_e3aedd703ba7",
+  "seconds": 12.0
+ },
+ {
+  "file": "background_2.wav",
+  "cls": "background",
+  "source": "esc50",
+  "id": "esc50_caca820adff1",
+  "seconds": 12.0
+ },
+ {
+  "file": "background_3.wav",
+  "cls": "background",
+  "source": "fsd50k",
+  "id": "fsd50k_17f254777b55",
+  "seconds": 12.0
+ },
+ {
+  "file": "background_4.wav",
+  "cls": "background",
+  "source": "frugalai",
+  "id": "frugalai_e094ad5b44c8",
+  "seconds": 12.0
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "name": "mn10p",
+  "alpha": 1.0,
+  "macs": 61100352,
+  "params": 3001830,
+  "tflite_bytes": 2681504,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "HARD_SWISH",
+   "MEAN",
+   "MUL",
+   "RESHAPE"
+  ],
+  "input": [
+   1,
+   128,
+   100,
+   1
+  ]
+ },
+ {
+  "name": "mn04p",
+  "alpha": 0.4,
+  "macs": 14345984,
+  "params": 540518,
+  "tflite_bytes": 522808,
+  "ops": [
+   "ADD",
+   "CONV_2D",
+   "DEPTHWISE_CONV_2D",
+   "HARD_SWISH",
+   "MEAN",
+   "MUL",
+   "RESHAPE"
+  ],
+  "input": [
+   1,
+   128,
+   100,
+   1
+  ]
+ }
+]
