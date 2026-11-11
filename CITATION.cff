@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it.
+title: "Acoustic alert classifier for lookout stations: corpus construction, training and evaluation"
+type: software
+license: MIT
+authors:
+  - family-names: "Kireeti"
+    given-names: "V."
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+    orcid: "https://orcid.org/0009-0003-5798-9366"
+  - family-names: "Tejeswar"
+    given-names: "P."
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+    orcid: "https://orcid.org/0009-0003-6350-2796"
+  - family-names: "Reddy"
+    given-names: "P. Gowtham"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+    orcid: "https://orcid.org/0009-0000-7782-3134"
+  - family-names: "Abhiram"
+    given-names: "N. A."
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+    orcid: "https://orcid.org/0009-0008-2059-3444"
+  - family-names: "Joshitha"
+    given-names: "G."
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+    orcid: "https://orcid.org/0009-0009-7381-4631"
+  - family-names: "Kumar T"
+    given-names: "Gireesh"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore, Tamil Nadu, India"
+keywords:
+  - "acoustic classification"
+  - "forest fire"
+  - "gunshot detection"
+  - "chainsaw detection"
+  - "embedded machine learning"
+abstract: "Code to build a licence-aware audio corpus, train and evaluate small sound classifiers for fire, gunshot and chainsaw alerts, and export them for lookout-station microcontrollers."

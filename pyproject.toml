@@ -1,0 +1,11 @@
+[project]
+name = "acoustic-ml"
+version = "0.1.0"
+description = "Acoustic alert classifier for lookout stations: corpus construction, training and evaluation."
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "scipy", "pandas", "soundfile", "librosa", "torch", "torchaudio", "timm", "scikit-learn", "pyyaml", "tqdm"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

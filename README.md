@@ -37,7 +37,7 @@ Open problems, stated plainly:
 ## Layout
 | Path | Content |
 |---|---|
-| `DESIGN.md`, `PLAN.md` | design, classes, data and licences, evaluation, phases and go/no-go gates |
+| `docs/design.md`, `docs/plan.md` | design, classes, data and licences, evaluation, phases and go/no-go gates |
 | `scripts/` | numbered scripts: `01`-`06` download metadata and sets, `10` manifest, `11` pack corpus, `12` targeted Freesound, `20` notebook, `21` 8 kHz cache, `30`/`31` launch and run jobs on cloud VMs, `40` soundscapes, `50` front-end header for the firmware |
 | `src/` | data loading, features, models, training, fine-tuning, evaluation with false alarms per hour, export to ONNX and TFLite, sliding-window and triggered evaluation |
 | `tests/` | `test_core.py` |
@@ -55,4 +55,4 @@ python scripts/10_build_manifest.py        # needs the fetched audio under data/
 python src/train.py --model student_ir --seed 0 --out runs/student_ir_s0
 python src/evaluate.py --help
 ```
-The cloud scripts (`scripts/30_launch.py`, `31_fleet.py`) expect the layout of the TerraWatch repository (they read project accounts from its `the local project map (see GCP_PROJECT_MAP in scripts/30_launch.py)`) and are not meant to run on their own. The package list above is the one the scripts import; there is no lock file yet.
+The cloud scripts (`scripts/30_launch.py`, `31_fleet.py`) read the project-to-account map from a local file outside git (`~/.config/terrawatch/gcp_projects.md`, or the path in `GCP_PROJECT_MAP`; one line per project: `| PROJECT_ID | ACCOUNT |`) and are not meant to run on their own. The package list above is the one the scripts import; there is no lock file yet.
