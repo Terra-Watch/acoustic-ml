@@ -1,6 +1,6 @@
 # GPU VMs for the station sound model (2026-11-02)
 
-Measured today by the provisioning job; the VMs are stopped, not deleted. Account emails are never written here: use the account shown for each project in wildfire-datasets-v3/DECISIONS.md section 11 (`<account>`).
+Measured today by the provisioning job; the VMs are stopped, not deleted. Account emails are never written here: use the account shown for each project in the local project map (see GCP_PROJECT_MAP in scripts/30_launch.py) section 11 (`<account>`).
 
 | Project | Instance | Zone | Machine | Provisioning | Boot disk | GPU | nvidia-smi | torch.cuda | packages | fp16 matmul 4096 | free disk |
 |---|---|---|---|---|---|---|---|---|---|---|---|

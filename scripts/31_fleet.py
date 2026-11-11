@@ -1,12 +1,13 @@
 """Get one GPU VM in a project (start it if it exists, else create it, trying every zone and Spot then on-demand), retrying for hours because L4s are scarce, then hand over to 30_launch.py.
 Usage: python3 -I scripts/31_fleet.py PROJECT_ID INSTANCE model:seed[:tag:extra] ...   (the VM powers itself off when its jobs end)"""
-import re, subprocess, sys, time
+import os, re, subprocess, sys, time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 KEYS = "/private/tmp/claude-501/-Users-kireeti-Desktop-Projects-TerraWatch/66a7fa1a-35bf-4929-9bca-fd61c4d502a7/scratchpad/keys.txt"
 project, name, *jobs = sys.argv[1:]
-rows = [l for l in (HERE.parent / "wildfire-datasets-v3" / "DECISIONS.md").read_text().splitlines() if l.startswith(f"| {project}")]
+MAP = Path(os.environ.get("GCP_PROJECT_MAP", Path.home() / ".config/terrawatch/gcp_projects.md"))
+rows = [l for l in (MAP.read_text().splitlines() if MAP.exists() else []) if l.startswith(f"| {project}")]
 acct = re.match(r"\|[^|]*\|\s*([^|\s]+)", rows[0]).group(1) if rows else next(a for a in subprocess.run(["gcloud", "auth", "list", "--format=value(account)"], capture_output=True, text=True).stdout.split() if a.startswith("vkireeti16@"))
 g = lambda *a: subprocess.run(["gcloud", *a, f"--account={acct}", f"--project={project}"], capture_output=True, text=True)
 ZONES = ["asia-south1-c", "asia-south1-a", "asia-south1-b", "asia-southeast1-b", "asia-southeast1-c", "asia-southeast1-a", "asia-east1-b", "asia-east1-a", "asia-east1-c", "asia-northeast1-a", "asia-northeast1-b", "asia-northeast1-c"]   # the home region first, then the nearest ones; the bucket is in asia-south1, other regions only cost a little egress

@@ -1,12 +1,13 @@
-"""Start a stopped GPU VM, copy the code, and start vm_job.sh on it (detached). Accounts come from wildfire-datasets-v3/DECISIONS.md and are never printed.
+"""Start a stopped GPU VM, copy the code, and start vm_job.sh on it (detached). Accounts come from the local file named by GCP_PROJECT_MAP (default ~/.config/terrawatch/gcp_projects.md, outside git; one line per project: "| PROJECT_ID | ACCOUNT |") and are never printed.
 Usage: python3 -I scripts/30_launch.py PROJECT_ID INSTANCE ZONE model:seed [model:seed ...]"""
-import re, subprocess, sys, time
+import os, re, subprocess, sys, time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 KEY = "/private/tmp/claude-501/-Users-kireeti-Desktop-Projects-TerraWatch/acc03b01-fa54-4585-98f9-f679819ffe2d/scratchpad/bakeoff_key"
 project, name, zone, *jobs = sys.argv[1:]
-rows = [l for l in (HERE.parent / "wildfire-datasets-v3" / "DECISIONS.md").read_text().splitlines() if l.startswith(f"| {project}")]
+MAP = Path(os.environ.get("GCP_PROJECT_MAP", Path.home() / ".config/terrawatch/gcp_projects.md"))
+rows = [l for l in (MAP.read_text().splitlines() if MAP.exists() else []) if l.startswith(f"| {project}")]
 acct = re.match(r"\|[^|]*\|\s*([^|\s]+)", rows[0]).group(1) if rows else next(a for a in subprocess.run(["gcloud", "auth", "list", "--format=value(account)"], capture_output=True, text=True).stdout.split() if a.startswith("vkireeti16@"))   # the bucket owner's own project is not in DECISIONS.md
 g = lambda *a, **k: subprocess.run(["gcloud", *a, f"--account={acct}", f"--project={project}"], capture_output=True, text=True, **k)
 sh = lambda *a: subprocess.run(["ssh", "-o", "IdentitiesOnly=yes", "-o", "StrictHostKeyChecking=no", "-o", "UserKnownHostsFile=/dev/null", "-o", "ConnectTimeout=10", "-i", KEY, *a], capture_output=True, text=True)

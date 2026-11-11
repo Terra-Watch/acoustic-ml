@@ -55,4 +55,4 @@ python scripts/10_build_manifest.py        # needs the fetched audio under data/
 python src/train.py --model student_ir --seed 0 --out runs/student_ir_s0
 python src/evaluate.py --help
 ```
-The cloud scripts (`scripts/30_launch.py`, `31_fleet.py`) expect the layout of the TerraWatch repository (they read project accounts from its `wildfire-datasets-v3/DECISIONS.md`) and are not meant to run on their own. The package list above is the one the scripts import; there is no lock file yet.
+The cloud scripts (`scripts/30_launch.py`, `31_fleet.py`) expect the layout of the TerraWatch repository (they read project accounts from its `the local project map (see GCP_PROJECT_MAP in scripts/30_launch.py)`) and are not meant to run on their own. The package list above is the one the scripts import; there is no lock file yet.
