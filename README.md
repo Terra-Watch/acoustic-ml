@@ -3,7 +3,7 @@
 # A sound classifier for forest lookout stations
 
 **Chainsaw or blast? A microphone on a ridge tells the control room to check.**<br>
-A six-class classifier trained on 43,055 clips, shrunk to a 4.3 MB int8 model that runs on an ESP32-S3 in 1.85 s.
+A six-class classifier: an AudioSet-pretrained MobileNetV3, fine-tuned on 43,055 clips and shrunk to a 4.3 MB int8 model that runs on an ESP32-S3 in 1.85 s.
 
 [Design](docs/design.md) &nbsp;·&nbsp; [Plan and pass targets](docs/plan.md) &nbsp;·&nbsp; [Corpus summary](manifests/SUMMARY.md) &nbsp;·&nbsp; [Speed test on the chip](board-bench/RESULTS.md) &nbsp;·&nbsp; [Station firmware](https://github.com/Terra-Watch/node-firmware)
 
@@ -44,7 +44,7 @@ Validation and in-domain test. **These are not field results.**
 
 <table>
 <tr>
-<td width="54%" valign="top"><img src="docs/readme/acoustic_models.png" alt="Macro-F1 on validation: logistic regression 0.354, small depthwise CNN 0.60 to 0.63, PaSST upper bound 0.686, mn10 float 0.771, mn10 int8 0.733"></td>
+<td width="54%" valign="top"><img src="docs/readme/acoustic_models.png" alt="Macro-F1 on validation: logistic regression 0.354, small depthwise CNN 0.60 to 0.63, PaSST upper bound 0.686, mn10 float 0.771, mn10 int8 0.724"></td>
 <td width="46%" valign="top">
 
 | Model | Val | Test (in-domain) |
@@ -53,9 +53,9 @@ Validation and in-domain test. **These are not field results.**
 | Small depthwise CNN, 3 seeds | 0.60 to 0.63 | 0.57 to 0.59 |
 | PaSST, fitted as the upper bound | 0.686 | |
 | Fine-tuned `mn10`, float | 0.771 | 0.733 |
-| **`mn10`, int8 (deployed)** | **0.733** | **0.702** |
+| **`mn10`, int8 (deployed)** | **0.724** | **0.694** |
 
-Macro-F1 over six classes. The int8 model agrees with the float model on 95% of validation windows and 91% of test windows.
+Macro-F1 over six classes. The deployed int8 model agrees with the float model on 94% of validation windows and 89% of test windows. A per-channel int8 export reaches 0.733 and 0.702 but is 4.75 MB instead of 4.3 MB.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Macro-F1 over six classes. The int8 model agrees with the float model on 95% of 
 
 | | |
 |---|---|
-| **Deployed model** | `mn10`, AudioSet-pretrained MobileNet family, int8, 4.3 MB, input 106 mel bands by 100 frames (1 s of 16 kHz audio) |
+| **Deployed model** | `mn10`, a MobileNetV3 pretrained on AudioSet, int8, 4,307,368 bytes, input 106 mel bands by 100 frames (1 s of audio) |
 | **Time per classification** | About 1.85 s on an ESP32-S3 with ESP-NN |
 | **What made it possible** | ESP-NN's assembly kernels are 10 to 25 times faster than reference kernels on the same chip, and channel counts in multiples of 8 matter as much as model size ([`board-bench/RESULTS.md`](board-bench/RESULTS.md)) |
 | **Front end** | A C++ mel front end, checked against the Python reference (`src/frontend_ref.py`, `src/frontend_check.py`) |
@@ -76,6 +76,60 @@ Macro-F1 over six classes. The int8 model agrees with the float model on 95% of 
 - **False alarms.** The target is at most 1 per hour. On held-out forest background the measured rate is in the hundreds per hour for the models in `runs_cloud/*/eval.json`. The thresholds in the firmware are starting points, not calibrated in the field.
 - **No field test yet.** A published forest gunshot model lost much precision at an unseen site. A test with the forest department (a chainsaw at 50 to 400 m, a prescribed burn, per-site thresholds) has not been done.
 - **Thin classes.** Chainsaw has 634 training items from four sources. Fire audio is mostly campfire-type, with three real wildfire recordings.
+
+## The model: MobileNetV3, fine-tuned
+
+A small CNN trained from scratch tops out near 0.6 macro-F1 on this corpus, because 43,000 clips are few for learning what a forest sounds like. So the station model starts from a network that has already heard a lot: **`mn10`, the full-width MobileNetV3 of [EfficientAT](https://github.com/fschmid56/EfficientAT) (Schmid et al.), pretrained on AudioSet**, and is fine-tuned on the six classes.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+| | |
+|---|---|
+| **Architecture** | MobileNetV3: inverted-residual blocks with depthwise convolutions, squeeze-and-excitation and hard-swish; width multiplier 1.0 |
+| **Parameters** | About 4.2 million |
+| **Pretraining** | AudioSet; the classifier head is replaced by a six-way head |
+| **Input** | 1 s of audio as a log-mel spectrogram from the pretrained front end (800-sample window, 320-sample hop at 32 kHz, 128 bands), keeping the lowest 106 bands because the bands above 8 kHz are empty for 16 kHz audio. Hop 10 ms, so 106 x 100 |
+| **Output** | Six probabilities: chainsaw, blast, fire, wood, wind, background |
+| **Smaller widths** | `mn01` to `mn05` can be chosen with `--model` and `--width` in `src/finetune.py` |
+
+</td>
+<td width="50%" valign="top"><img src="docs/readme/finetune_curve.png" alt="Validation macro-F1 per epoch of the fine-tuning run, rising from 0.43 to 0.77, above the small CNN and logistic regression lines"></td>
+</tr>
+</table>
+
+### How it is fine-tuned
+
+`src/finetune.py`, one command: `python src/finetune.py --model mn10_as --epochs 20`.
+
+| Part | Setting |
+|---|---|
+| **Optimiser** | AdamW, learning rate 3e-4, weight decay 0.01, one-cycle schedule with a 15% warm-up |
+| **Length** | 20 epochs of 250 steps, batches of 64 one-second windows; the epoch with the best validation macro-F1 is kept |
+| **Loss** | Cross-entropy with label smoothing 0.05 |
+| **Sampling** | Class chosen uniformly, then source uniformly within the class, then an item, so a big source (Belize background) cannot drown the small ones |
+| **Mixing** | An event is mixed into a real background clip with probability 0.5 at 5 to 20 dB signal-to-noise, so the model learns events in forest noise |
+| **Microphone variation** | With probability 0.7 a random smooth frequency response (about 4 dB, 100 Hz to 7.5 kHz) imitates different microphones and enclosures; an optional random gain stops loudness from deciding the class |
+| **SpecAugment** | Random frequency and time masks on the mel spectrogram |
+| **Selection** | The epoch is picked on validation only. Test and external sources are scored afterwards, with thresholds taken from validation |
+| **Distillation** | The script can also train a small model against a fine-tuned larger one (`--teacher`); the deployed model is the direct fine-tune |
+
+Fine-tuning gains about 0.15 macro-F1 over the small CNN trained from scratch with the same sampler and augmentations, and the curve passes the CNN after two epochs.
+
+### From PyTorch to the chip
+
+```mermaid
+flowchart LR
+  A["Fine-tuned mn10<br/>PyTorch, float"] --> B["ONNX<br/>src/export_onnx.py"]
+  B --> C["TensorFlow SavedModel"]
+  C --> D["Full-integer int8 TFLite<br/>calibrated on 800 real mel patches"]
+  D --> E["Check against float<br/>val 0.771 to 0.724"]
+  E --> F["node-firmware/model/<br/>acoustic_mn10_int8.tflite"]
+  F --> G["TFLite Micro + ESP-NN<br/>about 1.85 s per window"]
+```
+
+Quantisation costs about 0.05 macro-F1 on validation (0.771 to 0.724) and 0.04 on the in-domain test split (0.733 to 0.694). The mel front end on the chip is a C++ port checked against the Python one (`src/frontend_ref.py`, `src/frontend_check.py`).
 
 ## The corpus
 
@@ -100,7 +154,7 @@ Built from public sound collections: ESC-50, FSD50K, FSC22, Freesound, a Belize 
 flowchart LR
   A["Public sound sets<br/>ESC-50, FSD50K, FSC22, Freesound, Belize"] --> B["Manifest<br/>dedupe, licence class, splits by source"]
   B --> C["Pack<br/>16 kHz, 1 s windows"]
-  C --> D["Train<br/>fine-tune AudioSet mn10"]
+  C --> D["Fine-tune<br/>AudioSet MobileNetV3 mn10"]
   D --> E["Evaluate<br/>macro-F1, false alarms per hour"]
   D --> F["Export<br/>ONNX to int8 TFLite"]
   F --> G["Check<br/>int8 against float"]
