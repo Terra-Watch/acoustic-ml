@@ -4,7 +4,16 @@ updates:
     directory: "/"
     schedule: { interval: "monthly" }
     open-pull-requests-limit: 3
+    groups:
+      all-updates:
+        patterns: ["*"]
   - package-ecosystem: "pip"
     directory: "/"
     schedule: { interval: "monthly" }
     open-pull-requests-limit: 3
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    groups:
+      all-updates:
+        patterns: ["*"]
